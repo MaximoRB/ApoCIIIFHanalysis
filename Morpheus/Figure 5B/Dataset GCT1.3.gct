@@ -1,0 +1,6 @@
+#1.3
+3	13	0	0
+id	Statin x Ezetimibe	Statin (A x R x S)	TC levels	HDL-c levels	LDL-c levels	Triglycerides levels	Apo A levels	Apo B levels	rs5128	rs4225	rs4520	Apo CIII cis variants	Apo CIII variants quantity
+TC responsiveness	1.00	0.14	0.00	0.26	0.00	0.01	0.14	0.00	0.66	0.86	0.81	0.34	0.71
+LDL-c responsiveness	0.69	0.52	0.00	1.00	0.00	0.13	0.79	0.00	0.33	0.90	0.93	0.18	0.99
+Apo B responsiveness	0.67	0.46	0.00	0.30	0.00	0.10	1.00	0.00	0.79	0.29	0.49	0.27	0.94
