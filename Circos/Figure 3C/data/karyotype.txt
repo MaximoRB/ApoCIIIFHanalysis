@@ -1,0 +1,13 @@
+chr - Variants0 Variants0 0 9 colorvariants0
+chr - Variants1 Variants1 0 57 colorvariants1
+chr - Variants2 Variants2 0 81 colorvariants2
+chr - Variants3 Variants3 0 348 colorvariants3
+chr - rs5128GG rs5128GG 0 3 colorrs5128gg
+chr - rs5128GC rs5128GC 0 35 colorrs5128gc
+chr - rs5128CC rs5128CC 0 127 colorrs5128cc
+chr - rs4520TT rs4520TT 0 25 colorrs4520tt
+chr - rs4520TC rs4520TC 0 63 colorrs4520tc
+chr - rs4520CC rs4520CC 0 77 colorrs4520cc
+chr - rs4225TT rs4225TT 0 33 colorrs4225tt
+chr - rs4225GT rs4225GT 0 86 colorrs4225gt
+chr - rs4225GG rs4225GG 0 46 colorrs4225gg

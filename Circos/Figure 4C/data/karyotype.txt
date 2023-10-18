@@ -1,0 +1,6 @@
+chr - HLD_Responsive HLD_Responsive 0 86 colorhld_responsive
+chr - HLD_Nonresponsive HLD_Nonresponsive 0 147 colorhld_nonresponsive
+chr - LDL_Responsive LDL_Responsive 0 63 colorldl_responsive
+chr - LDL_Nonresponsive LDL_Nonresponsive 0 170 colorldl_nonresponsive
+chr - APOB_Responsive APOB_Responsive 0 60 colorapob_responsive
+chr - APOB_Nonresponsive APOB_Nonresponsive 0 156 colorapob_nonresponsive

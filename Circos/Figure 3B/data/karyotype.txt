@@ -1,0 +1,14 @@
+chr - Male Male 0 164 colormale
+chr - Female Female 0 258 colorfemale
+chr - TIA TIA 0 6 colortia
+chr - SAH SAH 0 85 colorsah
+chr - PAD PAD 0 35 colorpad
+chr - Obesity Obesity 0 29 colorobesity
+chr - MS MS 0 31 colorms
+chr - MI MI 0 55 colormi
+chr - DM DM 0 37 colordm
+chr - CVA CVA 0 7 colorcva
+chr - CS CS 0 8 colorcs
+chr - CAD CAD 0 76 colorcad
+chr - Angina Angina 0 51 colorangina
+chr - AA AA 0 2 coloraa

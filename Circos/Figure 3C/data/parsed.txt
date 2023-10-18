@@ -1,0 +1,458 @@
+scale atten_large 3 3
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 8 8
+scale atten_large 8 8
+scale atten_large 19 19
+scale atten_large 0 0
+scale atten_large 11 11
+scale atten_large 19 19
+scale atten_large 97 97
+scale atten_large 3 3
+scale atten_large 19 19
+scale atten_large 24 24
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 3 3
+scale atten_large 83 83
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 33 33
+scale atten_large 3 3
+scale atten_large 19 19
+scale atten_large 3 3
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 13 13
+scale atten_large 50 50
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 11 11
+scale atten_large 66 66
+hsvpercentile 0 0 1 1
+colorpercentile percentile00000 = 255,0,0
+hsvpercentile 5 15 1 1
+colorpercentile percentile00005 = 255,64,0
+hsvpercentile 10 30 1 1
+colorpercentile percentile00010 = 255,128,0
+hsvpercentile 15 45 1 1
+colorpercentile percentile00015 = 255,191,0
+hsvpercentile 20 60 1 1
+colorpercentile percentile00020 = 255,255,0
+hsvpercentile 25 75 1 1
+colorpercentile percentile00025 = 191,255,0
+hsvpercentile 30 90 1 1
+colorpercentile percentile00030 = 128,255,0
+hsvpercentile 35 105 1 1
+colorpercentile percentile00035 = 64,255,0
+hsvpercentile 40 120 1 1
+colorpercentile percentile00040 = 0,255,0
+hsvpercentile 45 135 1 1
+colorpercentile percentile00045 = 0,255,64
+hsvpercentile 50 150 1 1
+colorpercentile percentile00050 = 0,255,128
+hsvpercentile 55 165 1 1
+colorpercentile percentile00055 = 0,255,191
+hsvpercentile 60 180 1 1
+colorpercentile percentile00060 = 0,255,255
+hsvpercentile 65 195 1 1
+colorpercentile percentile00065 = 0,191,255
+hsvpercentile 70 210 1 1
+colorpercentile percentile00070 = 0,128,255
+hsvpercentile 75 225 1 1
+colorpercentile percentile00075 = 0,64,255
+hsvpercentile 80 240 1 1
+colorpercentile percentile00080 = 0,0,255
+hsvpercentile 85 255 1 1
+colorpercentile percentile00085 = 64,0,255
+hsvpercentile 90 270 1 1
+colorpercentile percentile00090 = 128,0,255
+hsvpercentile 95 285 1 1
+colorpercentile percentile00095 = 191,0,255
+hsvpercentile 100 300 1 1
+colorpercentile percentile00100 = 255,0,255
+table report row 0 rs5128GG 
+table report row 1 rs5128GC 
+table report row 2 rs5128CC 
+table report row 3 rs4225GG 
+table report row 4 rs4225GT 
+table report row 5 rs4225TT 
+table report row 6 rs4520TT 
+table report row 7 rs4520TC 
+table report row 8 rs4520CC 
+table report col 0 Variants0 1
+table report col 1 Variants1 2
+table report col 2 Variants2 3
+table report col 3 Variants3 4
+table report cell 0 rs5128GG 0 Variants0 raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 0 rs5128GG 1 Variants1 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 0 rs5128GG 2 Variants2 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 0 rs5128GG 3 Variants3 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 1 rs5128GC 0 Variants0 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 1 rs5128GC 1 Variants1 raw 8 cleaned/remapped 8* scaled 8 missing? 0 hidden? 0
+table report cell 1 rs5128GC 2 Variants2 raw 8 cleaned/remapped 8* scaled 8 missing? 0 hidden? 0
+table report cell 1 rs5128GC 3 Variants3 raw 19 cleaned/remapped 19* scaled 19 missing? 0 hidden? 0
+table report cell 2 rs5128CC 0 Variants0 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 2 rs5128CC 1 Variants1 raw 11 cleaned/remapped 11* scaled 11 missing? 0 hidden? 0
+table report cell 2 rs5128CC 2 Variants2 raw 19 cleaned/remapped 19* scaled 19 missing? 0 hidden? 0
+table report cell 2 rs5128CC 3 Variants3 raw 97 cleaned/remapped 97* scaled 97 missing? 0 hidden? 0
+table report cell 3 rs4225GG 0 Variants0 raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 3 rs4225GG 1 Variants1 raw 19 cleaned/remapped 19* scaled 19 missing? 0 hidden? 0
+table report cell 3 rs4225GG 2 Variants2 raw 24 cleaned/remapped 24* scaled 24 missing? 0 hidden? 0
+table report cell 3 rs4225GG 3 Variants3 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 4 rs4225GT 0 Variants0 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 4 rs4225GT 1 Variants1 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 4 rs4225GT 2 Variants2 raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 4 rs4225GT 3 Variants3 raw 83 cleaned/remapped 83* scaled 83 missing? 0 hidden? 0
+table report cell 5 rs4225TT 0 Variants0 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 5 rs4225TT 1 Variants1 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 5 rs4225TT 2 Variants2 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 5 rs4225TT 3 Variants3 raw 33 cleaned/remapped 33* scaled 33 missing? 0 hidden? 0
+table report cell 6 rs4520TT 0 Variants0 raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 6 rs4520TT 1 Variants1 raw 19 cleaned/remapped 19* scaled 19 missing? 0 hidden? 0
+table report cell 6 rs4520TT 2 Variants2 raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 6 rs4520TT 3 Variants3 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 7 rs4520TC 0 Variants0 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 7 rs4520TC 1 Variants1 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 7 rs4520TC 2 Variants2 raw 13 cleaned/remapped 13* scaled 13 missing? 0 hidden? 0
+table report cell 7 rs4520TC 3 Variants3 raw 50 cleaned/remapped 50* scaled 50 missing? 0 hidden? 0
+table report cell 8 rs4520CC 0 Variants0 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 8 rs4520CC 1 Variants1 raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 8 rs4520CC 2 Variants2 raw 11 cleaned/remapped 11* scaled 11 missing? 0 hidden? 0
+table report cell 8 rs4520CC 3 Variants3 raw 66 cleaned/remapped 66* scaled 66 missing? 0 hidden? 0
+row/col/label stat row rs4225GG sum 46 n 4 min 0 max 24 avg 11.5
+row/col/label stat row rs4225GT sum 86 n 4 min 0 max 83 avg 21.5
+row/col/label stat row rs4225TT sum 33 n 4 min 0 max 33 avg 8.25
+row/col/label stat row rs4520CC sum 77 n 4 min 0 max 66 avg 19.25
+row/col/label stat row rs4520TC sum 63 n 4 min 0 max 50 avg 15.75
+row/col/label stat row rs4520TT sum 25 n 4 min 0 max 19 avg 6.25
+row/col/label stat row rs5128CC sum 127 n 4 min 0 max 97 avg 31.75
+row/col/label stat row rs5128GC sum 35 n 4 min 0 max 19 avg 8.75
+row/col/label stat row rs5128GG sum 3 n 4 min 0 max 3 avg 0.75
+row/col/label stat col Variants0 sum 9 n 9 min 0 max 3 avg 1
+row/col/label stat col Variants1 sum 57 n 9 min 0 max 19 avg 6.33333333333333
+row/col/label stat col Variants2 sum 81 n 9 min 0 max 24 avg 9
+row/col/label stat col Variants3 sum 348 n 9 min 0 max 97 avg 38.6666666666667
+row/col/label stat label Variants0 sum 9 n 9 min 0 max 3 avg 1
+row/col/label stat label Variants1 sum 57 n 9 min 0 max 19 avg 6.33333333333333
+row/col/label stat label Variants2 sum 81 n 9 min 0 max 24 avg 9
+row/col/label stat label Variants3 sum 348 n 9 min 0 max 97 avg 38.6666666666667
+row/col/label stat label rs4225GG sum 46 n 4 min 0 max 24 avg 11.5
+row/col/label stat label rs4225GT sum 86 n 4 min 0 max 83 avg 21.5
+row/col/label stat label rs4225TT sum 33 n 4 min 0 max 33 avg 8.25
+row/col/label stat label rs4520CC sum 77 n 4 min 0 max 66 avg 19.25
+row/col/label stat label rs4520TC sum 63 n 4 min 0 max 50 avg 15.75
+row/col/label stat label rs4520TT sum 25 n 4 min 0 max 19 avg 6.25
+row/col/label stat label rs5128CC sum 127 n 4 min 0 max 97 avg 31.75
+row/col/label stat label rs5128GC sum 35 n 4 min 0 max 19 avg 8.75
+row/col/label stat label rs5128GG sum 3 n 4 min 0 max 3 avg 0.75
+labels ordered Variants0 Variants1 Variants2 Variants3 rs5128GG rs5128GC rs5128CC rs4520TT rs4520TC rs4520CC rs4225TT rs4225GT rs4225GG
+label2seg 0 Variants0 Variants0
+label2seg 1 Variants1 Variants1
+label2seg 2 Variants2 Variants2
+label2seg 3 Variants3 Variants3
+label2seg 4 rs5128GG rs5128GG
+label2seg 5 rs5128GC rs5128GC
+label2seg 6 rs5128CC rs5128CC
+label2seg 7 rs4520TT rs4520TT
+label2seg 8 rs4520TC rs4520TC
+label2seg 9 rs4520CC rs4520CC
+label2seg 10 rs4225TT rs4225TT
+label2seg 11 rs4225GT rs4225GT
+label2seg 12 rs4225GG rs4225GG
+labels ordered Variants0 Variants1 Variants2 Variants3
+colordef colorrs5128gc = 160,255,103
+colordef colorrs4225gg = 179,191,237
+colordef colorrs5128cc = 0,236,158
+colordef colorrs4520cc = 169,80,234
+colordef colorrs4225gt = 105,119,250
+colordef colorrs5128gg = 84,130,53
+colordef colorvariants0 = 230,46,46
+colordef colorrs4520tc = 250,114,185
+colordef colorvariants2 = 46,168,230
+colordef colorrs4225tt = 7,22,237
+colordef colorvariants3 = 230,46,230
+colordef colorrs4520tt = 255,15,158
+colordef colorvariants1 = 107,230,46
+highlight row rs5128GC 0 19 fill_color=colorvariants3
+highlight row rs5128GC 19 27 fill_color=colorvariants2
+highlight row rs5128GC 27 35 fill_color=colorvariants1
+highlight row rs5128GC 35 35 fill_color=colorvariants0
+highlight row rs5128CC 0 97 fill_color=colorvariants3
+highlight row rs5128CC 97 116 fill_color=colorvariants2
+highlight row rs5128CC 116 127 fill_color=colorvariants1
+highlight row rs5128CC 127 127 fill_color=colorvariants0
+highlight row rs4225GG 0 24 fill_color=colorvariants2
+highlight row rs4225GG 24 43 fill_color=colorvariants1
+highlight row rs4225GG 43 46 fill_color=colorvariants0
+highlight row rs4225GG 46 46 fill_color=colorvariants3
+highlight row rs4225GT 0 83 fill_color=colorvariants3
+highlight row rs4225GT 83 86 fill_color=colorvariants2
+highlight row rs4225GT 86 86 fill_color=colorvariants0
+highlight row rs4225GT 86 86 fill_color=colorvariants1
+highlight row rs4520CC 0 66 fill_color=colorvariants3
+highlight row rs4520CC 66 77 fill_color=colorvariants2
+highlight row rs4520CC 77 77 fill_color=colorvariants0
+highlight row rs4520CC 77 77 fill_color=colorvariants1
+highlight row rs5128GG 0 3 fill_color=colorvariants0
+highlight row rs5128GG 3 3 fill_color=colorvariants2
+highlight row rs5128GG 3 3 fill_color=colorvariants3
+highlight row rs5128GG 3 3 fill_color=colorvariants1
+highlight row rs4520TC 0 50 fill_color=colorvariants3
+highlight row rs4520TC 50 63 fill_color=colorvariants2
+highlight row rs4520TC 63 63 fill_color=colorvariants0
+highlight row rs4520TC 63 63 fill_color=colorvariants1
+highlight row rs4225TT 0 33 fill_color=colorvariants3
+highlight row rs4225TT 33 33 fill_color=colorvariants0
+highlight row rs4225TT 33 33 fill_color=colorvariants2
+highlight row rs4225TT 33 33 fill_color=colorvariants1
+highlight row rs4520TT 0 19 fill_color=colorvariants1
+highlight row rs4520TT 19 22 fill_color=colorvariants0
+highlight row rs4520TT 22 25 fill_color=colorvariants2
+highlight row rs4520TT 25 25 fill_color=colorvariants3
+highlight col Variants0 0 3 fill_color=colorrs4225gg
+highlight col Variants0 3 6 fill_color=colorrs5128gg
+highlight col Variants0 6 9 fill_color=colorrs4520tt
+highlight col Variants0 9 9 fill_color=colorrs5128gc
+highlight col Variants0 9 9 fill_color=colorrs5128cc
+highlight col Variants0 9 9 fill_color=colorrs4520cc
+highlight col Variants0 9 9 fill_color=colorrs4225gt
+highlight col Variants0 9 9 fill_color=colorrs4520tc
+highlight col Variants0 9 9 fill_color=colorrs4225tt
+highlight col Variants2 0 24 fill_color=colorrs4225gg
+highlight col Variants2 24 43 fill_color=colorrs5128cc
+highlight col Variants2 43 56 fill_color=colorrs4520tc
+highlight col Variants2 56 67 fill_color=colorrs4520cc
+highlight col Variants2 67 75 fill_color=colorrs5128gc
+highlight col Variants2 75 78 fill_color=colorrs4225gt
+highlight col Variants2 78 81 fill_color=colorrs4520tt
+highlight col Variants2 81 81 fill_color=colorrs5128gg
+highlight col Variants2 81 81 fill_color=colorrs4225tt
+highlight col Variants3 0 97 fill_color=colorrs5128cc
+highlight col Variants3 97 180 fill_color=colorrs4225gt
+highlight col Variants3 180 246 fill_color=colorrs4520cc
+highlight col Variants3 246 296 fill_color=colorrs4520tc
+highlight col Variants3 296 329 fill_color=colorrs4225tt
+highlight col Variants3 329 348 fill_color=colorrs5128gc
+highlight col Variants3 348 348 fill_color=colorrs4225gg
+highlight col Variants3 348 348 fill_color=colorrs5128gg
+highlight col Variants3 348 348 fill_color=colorrs4520tt
+highlight col Variants1 0 19 fill_color=colorrs4225gg
+highlight col Variants1 19 38 fill_color=colorrs4520tt
+highlight col Variants1 38 49 fill_color=colorrs5128cc
+highlight col Variants1 49 57 fill_color=colorrs5128gc
+highlight col Variants1 57 57 fill_color=colorrs4520cc
+highlight col Variants1 57 57 fill_color=colorrs4225gt
+highlight col Variants1 57 57 fill_color=colorrs5128gg
+highlight col Variants1 57 57 fill_color=colorrs4520tc
+highlight col Variants1 57 57 fill_color=colorrs4225tt
+highlight all Variants0 0 3 fill_color=colorrs4225gg
+highlight all Variants0 3 6 fill_color=colorrs5128gg
+highlight all Variants0 6 9 fill_color=colorrs4520tt
+highlight all Variants0 9 9 fill_color=colorrs5128gc
+highlight all Variants0 9 9 fill_color=colorrs5128cc
+highlight all Variants0 9 9 fill_color=colorrs4520cc
+highlight all Variants0 9 9 fill_color=colorrs4225gt
+highlight all Variants0 9 9 fill_color=colorrs4520tc
+highlight all Variants0 9 9 fill_color=colorrs4225tt
+highlight all Variants1 0 19 fill_color=colorrs4225gg
+highlight all Variants1 19 38 fill_color=colorrs4520tt
+highlight all Variants1 38 49 fill_color=colorrs5128cc
+highlight all Variants1 49 57 fill_color=colorrs5128gc
+highlight all Variants1 57 57 fill_color=colorrs4520cc
+highlight all Variants1 57 57 fill_color=colorrs4225gt
+highlight all Variants1 57 57 fill_color=colorrs5128gg
+highlight all Variants1 57 57 fill_color=colorrs4520tc
+highlight all Variants1 57 57 fill_color=colorrs4225tt
+highlight all Variants2 0 24 fill_color=colorrs4225gg
+highlight all Variants2 24 43 fill_color=colorrs5128cc
+highlight all Variants2 43 56 fill_color=colorrs4520tc
+highlight all Variants2 56 67 fill_color=colorrs4520cc
+highlight all Variants2 67 75 fill_color=colorrs5128gc
+highlight all Variants2 75 78 fill_color=colorrs4225gt
+highlight all Variants2 78 81 fill_color=colorrs4520tt
+highlight all Variants2 81 81 fill_color=colorrs5128gg
+highlight all Variants2 81 81 fill_color=colorrs4225tt
+highlight all Variants3 0 97 fill_color=colorrs5128cc
+highlight all Variants3 97 180 fill_color=colorrs4225gt
+highlight all Variants3 180 246 fill_color=colorrs4520cc
+highlight all Variants3 246 296 fill_color=colorrs4520tc
+highlight all Variants3 296 329 fill_color=colorrs4225tt
+highlight all Variants3 329 348 fill_color=colorrs5128gc
+highlight all Variants3 348 348 fill_color=colorrs4225gg
+highlight all Variants3 348 348 fill_color=colorrs5128gg
+highlight all Variants3 348 348 fill_color=colorrs4520tt
+highlight all rs5128GG 0 3 fill_color=colorvariants0
+highlight all rs5128GG 3 3 fill_color=colorvariants2
+highlight all rs5128GG 3 3 fill_color=colorvariants3
+highlight all rs5128GG 3 3 fill_color=colorvariants1
+highlight all rs5128GC 0 19 fill_color=colorvariants3
+highlight all rs5128GC 19 27 fill_color=colorvariants2
+highlight all rs5128GC 27 35 fill_color=colorvariants1
+highlight all rs5128GC 35 35 fill_color=colorvariants0
+highlight all rs5128CC 0 97 fill_color=colorvariants3
+highlight all rs5128CC 97 116 fill_color=colorvariants2
+highlight all rs5128CC 116 127 fill_color=colorvariants1
+highlight all rs5128CC 127 127 fill_color=colorvariants0
+highlight all rs4520TT 0 19 fill_color=colorvariants1
+highlight all rs4520TT 19 22 fill_color=colorvariants0
+highlight all rs4520TT 22 25 fill_color=colorvariants2
+highlight all rs4520TT 25 25 fill_color=colorvariants3
+highlight all rs4520TC 0 50 fill_color=colorvariants3
+highlight all rs4520TC 50 63 fill_color=colorvariants2
+highlight all rs4520TC 63 63 fill_color=colorvariants0
+highlight all rs4520TC 63 63 fill_color=colorvariants1
+highlight all rs4520CC 0 66 fill_color=colorvariants3
+highlight all rs4520CC 66 77 fill_color=colorvariants2
+highlight all rs4520CC 77 77 fill_color=colorvariants0
+highlight all rs4520CC 77 77 fill_color=colorvariants1
+highlight all rs4225TT 0 33 fill_color=colorvariants3
+highlight all rs4225TT 33 33 fill_color=colorvariants0
+highlight all rs4225TT 33 33 fill_color=colorvariants2
+highlight all rs4225TT 33 33 fill_color=colorvariants1
+highlight all rs4225GT 0 83 fill_color=colorvariants3
+highlight all rs4225GT 83 86 fill_color=colorvariants2
+highlight all rs4225GT 86 86 fill_color=colorvariants0
+highlight all rs4225GT 86 86 fill_color=colorvariants1
+highlight all rs4225GG 0 24 fill_color=colorvariants2
+highlight all rs4225GG 24 43 fill_color=colorvariants1
+highlight all rs4225GG 43 46 fill_color=colorvariants0
+highlight all rs4225GG 46 46 fill_color=colorvariants3
+karyotype chr - Variants0 Variants0 0 9 colorvariants0
+segmentlabel Variants0 0 9 Variants0
+karyotype chr - Variants1 Variants1 0 57 colorvariants1
+segmentlabel Variants1 0 57 Variants1
+karyotype chr - Variants2 Variants2 0 81 colorvariants2
+segmentlabel Variants2 0 81 Variants2
+karyotype chr - Variants3 Variants3 0 348 colorvariants3
+segmentlabel Variants3 0 348 Variants3
+karyotype chr - rs5128GG rs5128GG 0 3 colorrs5128gg
+segmentlabel rs5128GG 0 3 rs5128GG
+karyotype chr - rs5128GC rs5128GC 0 35 colorrs5128gc
+segmentlabel rs5128GC 0 35 rs5128GC
+karyotype chr - rs5128CC rs5128CC 0 127 colorrs5128cc
+segmentlabel rs5128CC 0 127 rs5128CC
+karyotype chr - rs4520TT rs4520TT 0 25 colorrs4520tt
+segmentlabel rs4520TT 0 25 rs4520TT
+karyotype chr - rs4520TC rs4520TC 0 63 colorrs4520tc
+segmentlabel rs4520TC 0 63 rs4520TC
+karyotype chr - rs4520CC rs4520CC 0 77 colorrs4520cc
+segmentlabel rs4520CC 0 77 rs4520CC
+karyotype chr - rs4225TT rs4225TT 0 33 colorrs4225tt
+segmentlabel rs4225TT 0 33 rs4225TT
+karyotype chr - rs4225GT rs4225GT 0 86 colorrs4225gt
+segmentlabel rs4225GT 0 86 rs4225GT
+karyotype chr - rs4225GG rs4225GG 0 46 colorrs4225gg
+segmentlabel rs4225GG 0 46 rs4225GG
+chromosomes_scale = Variants0:1.0000,Variants1:1.0000,Variants2:1.0000,Variants3:1.0000,rs5128GG:1.0000,rs5128GC:1.0000,rs5128CC:1.0000,rs4520TT:1.0000,rs4520TC:1.0000,rs4520CC:1.0000,rs4225TT:1.0000,rs4225GT:1.0000,rs4225GG:1.0000
+loop Variants0 row
+loop Variants0 col
+loop Variants1 row
+loop Variants1 col
+loop Variants2 row
+loop Variants2 col
+loop Variants3 row
+loop Variants3 col
+loop rs5128GG row
+loop rs5128GG col
+loop rs5128GC row
+loop rs5128GC col
+loop rs5128CC row
+loop rs5128CC col
+loop rs4520TT row
+loop rs4520TT col
+loop rs4520TC row
+loop rs4520TC col
+loop rs4520CC row
+loop rs4520CC col
+loop rs4225TT row
+loop rs4225TT col
+loop rs4225GT row
+loop rs4225GT col
+loop rs4225GG row
+loop rs4225GG col
+link cell_0000 rs5128GG 0 3 color=colorrs5128gg_a1,z=3
+link cell_0000 Variants0 6 9 color=colorrs5128gg_a1,z=3
+colribboncap Variants0 6 9 fill_color=colorrs5128gg
+rowribboncap rs5128GG 0 3 fill_color=colorvariants0
+link cell_0001 rs5128GC 27 35 color=colorrs5128gc_a1,z=8
+link cell_0001 Variants1 49 57 color=colorrs5128gc_a1,z=8
+colribboncap Variants1 49 57 fill_color=colorrs5128gc
+rowribboncap rs5128GC 27 35 fill_color=colorvariants1
+link cell_0002 rs5128GC 19 27 color=colorrs5128gc_a1,z=8
+link cell_0002 Variants2 73 81 color=colorrs5128gc_a1,z=8
+colribboncap Variants2 73 81 fill_color=colorrs5128gc
+rowribboncap rs5128GC 19 27 fill_color=colorvariants2
+link cell_0003 rs5128GC 0 19 color=colorrs5128gc_a1,z=20
+link cell_0003 Variants3 329 348 color=colorrs5128gc_a1,z=20
+colribboncap Variants3 329 348 fill_color=colorrs5128gc
+rowribboncap rs5128GC 0 19 fill_color=colorvariants3
+link cell_0004 rs5128CC 116 127 color=colorrs5128cc_a1,z=11
+link cell_0004 Variants1 38 49 color=colorrs5128cc_a1,z=11
+colribboncap Variants1 38 49 fill_color=colorrs5128cc
+rowribboncap rs5128CC 116 127 fill_color=colorvariants1
+link cell_0005 rs5128CC 97 116 color=colorrs5128cc_a1,z=20
+link cell_0005 Variants2 54 73 color=colorrs5128cc_a1,z=20
+colribboncap Variants2 54 73 fill_color=colorrs5128cc
+rowribboncap rs5128CC 97 116 fill_color=colorvariants2
+link cell_0006 rs5128CC 0 97 color=colorrs5128cc_a1,z=100
+link cell_0006 Variants3 232 329 color=colorrs5128cc_a1,z=100
+colribboncap Variants3 232 329 fill_color=colorrs5128cc
+rowribboncap rs5128CC 0 97 fill_color=colorvariants3
+link cell_0007 rs4225GG 43 46 color=colorrs4225gg_a1,z=3
+link cell_0007 Variants0 0 3 color=colorrs4225gg_a1,z=3
+colribboncap Variants0 0 3 fill_color=colorrs4225gg
+rowribboncap rs4225GG 43 46 fill_color=colorvariants0
+link cell_0008 rs4225GG 24 43 color=colorrs4225gg_a1,z=20
+link cell_0008 Variants1 0 19 color=colorrs4225gg_a1,z=20
+colribboncap Variants1 0 19 fill_color=colorrs4225gg
+rowribboncap rs4225GG 24 43 fill_color=colorvariants1
+link cell_0009 rs4225GG 0 24 color=colorrs4225gg_a1,z=25
+link cell_0009 Variants2 0 24 color=colorrs4225gg_a1,z=25
+colribboncap Variants2 0 24 fill_color=colorrs4225gg
+rowribboncap rs4225GG 0 24 fill_color=colorvariants2
+link cell_0010 rs4225GT 83 86 color=colorrs4225gt_a1,z=3
+link cell_0010 Variants2 24 27 color=colorrs4225gt_a1,z=3
+colribboncap Variants2 24 27 fill_color=colorrs4225gt
+rowribboncap rs4225GT 83 86 fill_color=colorvariants2
+link cell_0011 rs4225GT 0 83 color=colorrs4225gt_a1,z=86
+link cell_0011 Variants3 0 83 color=colorrs4225gt_a1,z=86
+colribboncap Variants3 0 83 fill_color=colorrs4225gt
+rowribboncap rs4225GT 0 83 fill_color=colorvariants3
+link cell_0012 rs4225TT 0 33 color=colorrs4225tt_a1,z=34
+link cell_0012 Variants3 83 116 color=colorrs4225tt_a1,z=34
+colribboncap Variants3 83 116 fill_color=colorrs4225tt
+rowribboncap rs4225TT 0 33 fill_color=colorvariants3
+link cell_0013 rs4520TT 22 25 color=colorrs4520tt_a1,z=3
+link cell_0013 Variants0 3 6 color=colorrs4520tt_a1,z=3
+colribboncap Variants0 3 6 fill_color=colorrs4520tt
+rowribboncap rs4520TT 22 25 fill_color=colorvariants0
+link cell_0014 rs4520TT 3 22 color=colorrs4520tt_a1,z=20
+link cell_0014 Variants1 19 38 color=colorrs4520tt_a1,z=20
+colribboncap Variants1 19 38 fill_color=colorrs4520tt
+rowribboncap rs4520TT 3 22 fill_color=colorvariants1
+link cell_0015 rs4520TT 0 3 color=colorrs4520tt_a1,z=3
+link cell_0015 Variants2 51 54 color=colorrs4520tt_a1,z=3
+colribboncap Variants2 51 54 fill_color=colorrs4520tt
+rowribboncap rs4520TT 0 3 fill_color=colorvariants2
+link cell_0016 rs4520TC 50 63 color=colorrs4520tc_a1,z=13
+link cell_0016 Variants2 38 51 color=colorrs4520tc_a1,z=13
+colribboncap Variants2 38 51 fill_color=colorrs4520tc
+rowribboncap rs4520TC 50 63 fill_color=colorvariants2
+link cell_0017 rs4520TC 0 50 color=colorrs4520tc_a1,z=52
+link cell_0017 Variants3 182 232 color=colorrs4520tc_a1,z=52
+colribboncap Variants3 182 232 fill_color=colorrs4520tc
+rowribboncap rs4520TC 0 50 fill_color=colorvariants3
+link cell_0018 rs4520CC 66 77 color=colorrs4520cc_a1,z=11
+link cell_0018 Variants2 27 38 color=colorrs4520cc_a1,z=11
+colribboncap Variants2 27 38 fill_color=colorrs4520cc
+rowribboncap rs4520CC 66 77 fill_color=colorvariants2
+link cell_0019 rs4520CC 0 66 color=colorrs4520cc_a1,z=68
+link cell_0019 Variants3 116 182 color=colorrs4520cc_a1,z=68
+colribboncap Variants3 116 182 fill_color=colorrs4520cc
+rowribboncap rs4520CC 0 66 fill_color=colorvariants3

@@ -1,0 +1,31 @@
+debuggroup summary 0.32s welcome to circos v0.68-pre1 7 Apr 2015 on Perl 5.010000
+debuggroup summary 0.33s current working directory /home/martink/www/htdocs/tableviewer/tmp/lnfmjff
+debuggroup summary 0.33s command /home/martink/work/circos/svn-tags/circos-tableviewer//bin/circos -param random_string=lnfmjff -conf /home/martink/www/htdocs/tableviewer/tmp/lnfmjff/etc/circos.conf
+debuggroup summary 0.33s guessing configuration file
+debuggroup summary 0.33s found conf file /home/martink/www/htdocs/tableviewer/tmp/lnfmjff/etc/circos.conf
+debuggroup summary 0.97s debug will appear for these features: output,summary
+debuggroup summary 0.97s bitmap output image results/circos-table-lnfmjff-large.png
+debuggroup summary 0.97s SVG output image results/circos-table-lnfmjff-large.svg
+debuggroup summary 0.97s parsing karyotype and organizing ideograms
+debuggroup summary 0.98s karyotype has 14 chromosomes of total size 858
+debuggroup summary 1.00s applying global and local scaling
+debuggroup summary 1.01s allocating image, colors and brushes
+debuggroup summary 2.28s drawing 14 ideograms of total size 858
+debuggroup summary 2.28s drawing highlights and ideograms
+debuggroup summary 2.29s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/highlight.bg.conf
+debuggroup summary 2.29s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/highlight.bg.conf
+debuggroup summary 2.29s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/highlight.bg.conf
+debuggroup summary 2.29s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/highlight.bg.conf
+debuggroup summary 2.29s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/highlight.bg.conf
+debuggroup summary 2.29s process track_0 highlight /home/martink/www/htdocs/tableviewer/tmp/lnfmjff/data/row.txt
+debuggroup summary 2.30s process track_1 highlight /home/martink/www/htdocs/tableviewer/tmp/lnfmjff/data/col.txt
+debuggroup summary 2.30s process track_2 highlight /home/martink/www/htdocs/tableviewer/tmp/lnfmjff/data/all.txt
+debuggroup summary 2.31s process track_3 highlight /home/martink/www/htdocs/tableviewer/tmp/lnfmjff/data/cap.col.txt
+debuggroup summary 2.32s process track_4 highlight /home/martink/www/htdocs/tableviewer/tmp/lnfmjff/data/cap.row.txt
+debuggroup summary 3.17s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/link.conf
+debuggroup summary 3.17s process flow link /home/martink/www/htdocs/tableviewer/tmp/lnfmjff/data/cells.txt
+debuggroup summary 3.18s drawing link flow z 0
+debuggroup summary 3.30s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/text.conf
+debuggroup output 3.31s generating output
+debuggroup output 3.85s created PNG image results/circos-table-lnfmjff-large.png (574 kb)
+debuggroup output 3.85s created SVG image results/circos-table-lnfmjff-large.svg (110 kb)

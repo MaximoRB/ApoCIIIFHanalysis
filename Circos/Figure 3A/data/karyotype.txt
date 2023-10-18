@@ -1,0 +1,9 @@
+chr - Male Male 0 148 colormale
+chr - Female Female 0 222 colorfemale
+chr - g g 0 29 colorg
+chr - f f 0 26 colorf
+chr - e e 0 107 colore
+chr - d d 0 44 colord
+chr - c c 0 45 colorc
+chr - b b 0 70 colorb
+chr - a a 0 49 colora

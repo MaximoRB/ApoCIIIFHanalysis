@@ -1,0 +1,315 @@
+scale atten_large 0 0
+scale atten_large 32 32
+scale atten_large 14 14
+scale atten_large 28 28
+scale atten_large 12 12
+scale atten_large 0 0
+scale atten_large 1 1
+scale atten_large 78 78
+scale atten_large 2 2
+scale atten_large 66 66
+scale atten_large 32 32
+scale atten_large 1 1
+scale atten_large 0 0
+scale atten_large 25 25
+scale atten_large 5 5
+scale atten_large 14 14
+scale atten_large 78 78
+scale atten_large 0 0
+scale atten_large 5 5
+scale atten_large 73 73
+scale atten_large 28 28
+scale atten_large 2 2
+scale atten_large 25 25
+scale atten_large 5 5
+scale atten_large 0 0
+scale atten_large 12 12
+scale atten_large 66 66
+scale atten_large 5 5
+scale atten_large 73 73
+scale atten_large 0 0
+hsvpercentile 0 0 1 1
+colorpercentile percentile00000 = 255,0,0
+hsvpercentile 5 15 1 1
+colorpercentile percentile00005 = 255,64,0
+hsvpercentile 10 30 1 1
+colorpercentile percentile00010 = 255,128,0
+hsvpercentile 15 45 1 1
+colorpercentile percentile00015 = 255,191,0
+hsvpercentile 20 60 1 1
+colorpercentile percentile00020 = 255,255,0
+hsvpercentile 25 75 1 1
+colorpercentile percentile00025 = 191,255,0
+hsvpercentile 30 90 1 1
+colorpercentile percentile00030 = 128,255,0
+hsvpercentile 35 105 1 1
+colorpercentile percentile00035 = 64,255,0
+hsvpercentile 40 120 1 1
+colorpercentile percentile00040 = 0,255,0
+hsvpercentile 45 135 1 1
+colorpercentile percentile00045 = 0,255,64
+hsvpercentile 50 150 1 1
+colorpercentile percentile00050 = 0,255,128
+hsvpercentile 55 165 1 1
+colorpercentile percentile00055 = 0,255,191
+hsvpercentile 60 180 1 1
+colorpercentile percentile00060 = 0,255,255
+hsvpercentile 65 195 1 1
+colorpercentile percentile00065 = 0,191,255
+hsvpercentile 70 210 1 1
+colorpercentile percentile00070 = 0,128,255
+hsvpercentile 75 225 1 1
+colorpercentile percentile00075 = 0,64,255
+hsvpercentile 80 240 1 1
+colorpercentile percentile00080 = 0,0,255
+hsvpercentile 85 255 1 1
+colorpercentile percentile00085 = 64,0,255
+hsvpercentile 90 270 1 1
+colorpercentile percentile00090 = 128,0,255
+hsvpercentile 95 285 1 1
+colorpercentile percentile00095 = 191,0,255
+hsvpercentile 100 300 1 1
+colorpercentile percentile00100 = 255,0,255
+table report row 0 HLD_Responsive 1
+table report row 1 HLD_Nonresponsive 2
+table report row 2 LDL_Responsive 3
+table report row 3 LDL_Nonresponsive 4
+table report row 4 APOB_Responsive 5
+table report row 5 APOB_Nonresponsive 6
+table report col 0 HLD_Responsive 
+table report col 1 HLD_Nonresponsive 
+table report col 2 LDL_Responsive 
+table report col 3 LDL_Nonresponsive 
+table report col 4 APOB_Responsive 
+table report col 5 APOB_Nonresponsive 
+table report cell 0 HLD_Responsive 0 HLD_Responsive raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 0 HLD_Responsive 1 HLD_Nonresponsive raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 0 HLD_Responsive 2 LDL_Responsive raw 32 cleaned/remapped 32* scaled 32 missing? 0 hidden? 0
+table report cell 0 HLD_Responsive 3 LDL_Nonresponsive raw 14 cleaned/remapped 14* scaled 14 missing? 0 hidden? 0
+table report cell 0 HLD_Responsive 4 APOB_Responsive raw 28 cleaned/remapped 28* scaled 28 missing? 0 hidden? 0
+table report cell 0 HLD_Responsive 5 APOB_Nonresponsive raw 12 cleaned/remapped 12* scaled 12 missing? 0 hidden? 0
+table report cell 1 HLD_Nonresponsive 0 HLD_Responsive raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 1 HLD_Nonresponsive 1 HLD_Nonresponsive raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 1 HLD_Nonresponsive 2 LDL_Responsive raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 1 HLD_Nonresponsive 3 LDL_Nonresponsive raw 78 cleaned/remapped 78* scaled 78 missing? 0 hidden? 0
+table report cell 1 HLD_Nonresponsive 4 APOB_Responsive raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 1 HLD_Nonresponsive 5 APOB_Nonresponsive raw 66 cleaned/remapped 66* scaled 66 missing? 0 hidden? 0
+table report cell 2 LDL_Responsive 0 HLD_Responsive raw 32 cleaned/remapped 32* scaled 32 missing? 0 hidden? 0
+table report cell 2 LDL_Responsive 1 HLD_Nonresponsive raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 2 LDL_Responsive 2 LDL_Responsive raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 2 LDL_Responsive 3 LDL_Nonresponsive raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 2 LDL_Responsive 4 APOB_Responsive raw 25 cleaned/remapped 25* scaled 25 missing? 0 hidden? 0
+table report cell 2 LDL_Responsive 5 APOB_Nonresponsive raw 5 cleaned/remapped 5* scaled 5 missing? 0 hidden? 0
+table report cell 3 LDL_Nonresponsive 0 HLD_Responsive raw 14 cleaned/remapped 14* scaled 14 missing? 0 hidden? 0
+table report cell 3 LDL_Nonresponsive 1 HLD_Nonresponsive raw 78 cleaned/remapped 78* scaled 78 missing? 0 hidden? 0
+table report cell 3 LDL_Nonresponsive 2 LDL_Responsive raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 3 LDL_Nonresponsive 3 LDL_Nonresponsive raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 3 LDL_Nonresponsive 4 APOB_Responsive raw 5 cleaned/remapped 5* scaled 5 missing? 0 hidden? 0
+table report cell 3 LDL_Nonresponsive 5 APOB_Nonresponsive raw 73 cleaned/remapped 73* scaled 73 missing? 0 hidden? 0
+table report cell 4 APOB_Responsive 0 HLD_Responsive raw 28 cleaned/remapped 28* scaled 28 missing? 0 hidden? 0
+table report cell 4 APOB_Responsive 1 HLD_Nonresponsive raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 4 APOB_Responsive 2 LDL_Responsive raw 25 cleaned/remapped 25* scaled 25 missing? 0 hidden? 0
+table report cell 4 APOB_Responsive 3 LDL_Nonresponsive raw 5 cleaned/remapped 5* scaled 5 missing? 0 hidden? 0
+table report cell 4 APOB_Responsive 4 APOB_Responsive raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 4 APOB_Responsive 5 APOB_Nonresponsive raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 5 APOB_Nonresponsive 0 HLD_Responsive raw 12 cleaned/remapped 12* scaled 12 missing? 0 hidden? 0
+table report cell 5 APOB_Nonresponsive 1 HLD_Nonresponsive raw 66 cleaned/remapped 66* scaled 66 missing? 0 hidden? 0
+table report cell 5 APOB_Nonresponsive 2 LDL_Responsive raw 5 cleaned/remapped 5* scaled 5 missing? 0 hidden? 0
+table report cell 5 APOB_Nonresponsive 3 LDL_Nonresponsive raw 73 cleaned/remapped 73* scaled 73 missing? 0 hidden? 0
+table report cell 5 APOB_Nonresponsive 4 APOB_Responsive raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 5 APOB_Nonresponsive 5 APOB_Nonresponsive raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+row/col/label stat row APOB_Nonresponsive sum 156 n 5 min 0 max 73 avg 31.2
+row/col/label stat row APOB_Responsive sum 60 n 5 min 0 max 28 avg 12
+row/col/label stat row HLD_Nonresponsive sum 147 n 5 min 0 max 78 avg 29.4
+row/col/label stat row HLD_Responsive sum 86 n 5 min 0 max 32 avg 17.2
+row/col/label stat row LDL_Nonresponsive sum 170 n 5 min 0 max 78 avg 34
+row/col/label stat row LDL_Responsive sum 63 n 5 min 0 max 32 avg 12.6
+row/col/label stat col APOB_Nonresponsive sum 156 n 5 min 0 max 73 avg 31.2
+row/col/label stat col APOB_Responsive sum 60 n 5 min 0 max 28 avg 12
+row/col/label stat col HLD_Nonresponsive sum 147 n 5 min 0 max 78 avg 29.4
+row/col/label stat col HLD_Responsive sum 86 n 5 min 0 max 32 avg 17.2
+row/col/label stat col LDL_Nonresponsive sum 170 n 5 min 0 max 78 avg 34
+row/col/label stat col LDL_Responsive sum 63 n 5 min 0 max 32 avg 12.6
+row/col/label stat label APOB_Nonresponsive sum 156 n 5 min 0 max 73 avg 31.2
+row/col/label stat label APOB_Responsive sum 60 n 5 min 0 max 28 avg 12
+row/col/label stat label HLD_Nonresponsive sum 147 n 5 min 0 max 78 avg 29.4
+row/col/label stat label HLD_Responsive sum 86 n 5 min 0 max 32 avg 17.2
+row/col/label stat label LDL_Nonresponsive sum 170 n 5 min 0 max 78 avg 34
+row/col/label stat label LDL_Responsive sum 63 n 5 min 0 max 32 avg 12.6
+labels ordered HLD_Responsive HLD_Nonresponsive LDL_Responsive LDL_Nonresponsive APOB_Responsive APOB_Nonresponsive
+label2seg 0 HLD_Responsive HLD_Responsive
+label2seg 1 HLD_Nonresponsive HLD_Nonresponsive
+label2seg 2 LDL_Responsive LDL_Responsive
+label2seg 3 LDL_Nonresponsive LDL_Nonresponsive
+label2seg 4 APOB_Responsive APOB_Responsive
+label2seg 5 APOB_Nonresponsive APOB_Nonresponsive
+labels ordered
+colordef colorhld_responsive = 0,236,158
+colordef colorldl_responsive = 0,236,158
+colordef colorapob_responsive = 0,236,158
+colordef colorhld_nonresponsive = 169,80,234
+colordef colorapob_nonresponsive = 169,80,234
+colordef colorldl_nonresponsive = 169,80,234
+highlight row HLD_Responsive 0 32 fill_color=colorldl_responsive
+highlight row HLD_Responsive 32 60 fill_color=colorapob_responsive
+highlight row HLD_Responsive 60 74 fill_color=colorldl_nonresponsive
+highlight row HLD_Responsive 74 86 fill_color=colorapob_nonresponsive
+highlight row HLD_Responsive 86 86 fill_color=colorhld_nonresponsive
+highlight row LDL_Responsive 0 32 fill_color=colorhld_responsive
+highlight row LDL_Responsive 32 57 fill_color=colorapob_responsive
+highlight row LDL_Responsive 57 62 fill_color=colorapob_nonresponsive
+highlight row LDL_Responsive 62 63 fill_color=colorhld_nonresponsive
+highlight row LDL_Responsive 63 63 fill_color=colorldl_nonresponsive
+highlight row HLD_Nonresponsive 0 78 fill_color=colorldl_nonresponsive
+highlight row HLD_Nonresponsive 78 144 fill_color=colorapob_nonresponsive
+highlight row HLD_Nonresponsive 144 146 fill_color=colorapob_responsive
+highlight row HLD_Nonresponsive 146 147 fill_color=colorldl_responsive
+highlight row HLD_Nonresponsive 147 147 fill_color=colorhld_responsive
+highlight row APOB_Responsive 0 28 fill_color=colorhld_responsive
+highlight row APOB_Responsive 28 53 fill_color=colorldl_responsive
+highlight row APOB_Responsive 53 58 fill_color=colorldl_nonresponsive
+highlight row APOB_Responsive 58 60 fill_color=colorhld_nonresponsive
+highlight row APOB_Responsive 60 60 fill_color=colorapob_nonresponsive
+highlight row APOB_Nonresponsive 0 73 fill_color=colorldl_nonresponsive
+highlight row APOB_Nonresponsive 73 139 fill_color=colorhld_nonresponsive
+highlight row APOB_Nonresponsive 139 151 fill_color=colorhld_responsive
+highlight row APOB_Nonresponsive 151 156 fill_color=colorldl_responsive
+highlight row APOB_Nonresponsive 156 156 fill_color=colorapob_responsive
+highlight row LDL_Nonresponsive 0 78 fill_color=colorhld_nonresponsive
+highlight row LDL_Nonresponsive 78 151 fill_color=colorapob_nonresponsive
+highlight row LDL_Nonresponsive 151 165 fill_color=colorhld_responsive
+highlight row LDL_Nonresponsive 165 170 fill_color=colorapob_responsive
+highlight row LDL_Nonresponsive 170 170 fill_color=colorldl_responsive
+highlight col HLD_Responsive 0 32 fill_color=colorldl_responsive
+highlight col HLD_Responsive 32 60 fill_color=colorapob_responsive
+highlight col HLD_Responsive 60 74 fill_color=colorldl_nonresponsive
+highlight col HLD_Responsive 74 86 fill_color=colorapob_nonresponsive
+highlight col HLD_Responsive 86 86 fill_color=colorhld_nonresponsive
+highlight col LDL_Responsive 0 32 fill_color=colorhld_responsive
+highlight col LDL_Responsive 32 57 fill_color=colorapob_responsive
+highlight col LDL_Responsive 57 62 fill_color=colorapob_nonresponsive
+highlight col LDL_Responsive 62 63 fill_color=colorhld_nonresponsive
+highlight col LDL_Responsive 63 63 fill_color=colorldl_nonresponsive
+highlight col HLD_Nonresponsive 0 78 fill_color=colorldl_nonresponsive
+highlight col HLD_Nonresponsive 78 144 fill_color=colorapob_nonresponsive
+highlight col HLD_Nonresponsive 144 146 fill_color=colorapob_responsive
+highlight col HLD_Nonresponsive 146 147 fill_color=colorldl_responsive
+highlight col HLD_Nonresponsive 147 147 fill_color=colorhld_responsive
+highlight col APOB_Responsive 0 28 fill_color=colorhld_responsive
+highlight col APOB_Responsive 28 53 fill_color=colorldl_responsive
+highlight col APOB_Responsive 53 58 fill_color=colorldl_nonresponsive
+highlight col APOB_Responsive 58 60 fill_color=colorhld_nonresponsive
+highlight col APOB_Responsive 60 60 fill_color=colorapob_nonresponsive
+highlight col APOB_Nonresponsive 0 73 fill_color=colorldl_nonresponsive
+highlight col APOB_Nonresponsive 73 139 fill_color=colorhld_nonresponsive
+highlight col APOB_Nonresponsive 139 151 fill_color=colorhld_responsive
+highlight col APOB_Nonresponsive 151 156 fill_color=colorldl_responsive
+highlight col APOB_Nonresponsive 156 156 fill_color=colorapob_responsive
+highlight col LDL_Nonresponsive 0 78 fill_color=colorhld_nonresponsive
+highlight col LDL_Nonresponsive 78 151 fill_color=colorapob_nonresponsive
+highlight col LDL_Nonresponsive 151 165 fill_color=colorhld_responsive
+highlight col LDL_Nonresponsive 165 170 fill_color=colorapob_responsive
+highlight col LDL_Nonresponsive 170 170 fill_color=colorldl_responsive
+highlight all HLD_Responsive 0 64 fill_color=colorldl_responsive
+highlight all HLD_Responsive 64 120 fill_color=colorapob_responsive
+highlight all HLD_Responsive 120 148 fill_color=colorldl_nonresponsive
+highlight all HLD_Responsive 148 172 fill_color=colorapob_nonresponsive
+highlight all HLD_Responsive 172 172 fill_color=colorhld_nonresponsive
+highlight all HLD_Nonresponsive 0 156 fill_color=colorldl_nonresponsive
+highlight all HLD_Nonresponsive 156 288 fill_color=colorapob_nonresponsive
+highlight all HLD_Nonresponsive 288 292 fill_color=colorapob_responsive
+highlight all HLD_Nonresponsive 292 294 fill_color=colorldl_responsive
+highlight all HLD_Nonresponsive 294 294 fill_color=colorhld_responsive
+highlight all LDL_Responsive 0 64 fill_color=colorhld_responsive
+highlight all LDL_Responsive 64 114 fill_color=colorapob_responsive
+highlight all LDL_Responsive 114 124 fill_color=colorapob_nonresponsive
+highlight all LDL_Responsive 124 126 fill_color=colorhld_nonresponsive
+highlight all LDL_Responsive 126 126 fill_color=colorldl_nonresponsive
+highlight all LDL_Nonresponsive 0 156 fill_color=colorhld_nonresponsive
+highlight all LDL_Nonresponsive 156 302 fill_color=colorapob_nonresponsive
+highlight all LDL_Nonresponsive 302 330 fill_color=colorhld_responsive
+highlight all LDL_Nonresponsive 330 340 fill_color=colorapob_responsive
+highlight all LDL_Nonresponsive 340 340 fill_color=colorldl_responsive
+highlight all APOB_Responsive 0 56 fill_color=colorhld_responsive
+highlight all APOB_Responsive 56 106 fill_color=colorldl_responsive
+highlight all APOB_Responsive 106 116 fill_color=colorldl_nonresponsive
+highlight all APOB_Responsive 116 120 fill_color=colorhld_nonresponsive
+highlight all APOB_Responsive 120 120 fill_color=colorapob_nonresponsive
+highlight all APOB_Nonresponsive 0 146 fill_color=colorldl_nonresponsive
+highlight all APOB_Nonresponsive 146 278 fill_color=colorhld_nonresponsive
+highlight all APOB_Nonresponsive 278 302 fill_color=colorhld_responsive
+highlight all APOB_Nonresponsive 302 312 fill_color=colorldl_responsive
+highlight all APOB_Nonresponsive 312 312 fill_color=colorapob_responsive
+karyotype chr - HLD_Responsive HLD_Responsive 0 86 colorhld_responsive
+segmentlabel HLD_Responsive 0 86 HLD_Responsive
+karyotype chr - HLD_Nonresponsive HLD_Nonresponsive 0 147 colorhld_nonresponsive
+segmentlabel HLD_Nonresponsive 0 147 HLD_Nonresponsive
+karyotype chr - LDL_Responsive LDL_Responsive 0 63 colorldl_responsive
+segmentlabel LDL_Responsive 0 63 LDL_Responsive
+karyotype chr - LDL_Nonresponsive LDL_Nonresponsive 0 170 colorldl_nonresponsive
+segmentlabel LDL_Nonresponsive 0 170 LDL_Nonresponsive
+karyotype chr - APOB_Responsive APOB_Responsive 0 60 colorapob_responsive
+segmentlabel APOB_Responsive 0 60 APOB_Responsive
+karyotype chr - APOB_Nonresponsive APOB_Nonresponsive 0 156 colorapob_nonresponsive
+segmentlabel APOB_Nonresponsive 0 156 APOB_Nonresponsive
+chromosomes_scale = HLD_Responsive:1.0000,HLD_Nonresponsive:1.0000,LDL_Responsive:1.0000,LDL_Nonresponsive:1.0000,APOB_Responsive:1.0000,APOB_Nonresponsive:1.0000
+loop row HLD_Responsive
+loop row HLD_Nonresponsive
+loop row LDL_Responsive
+loop row LDL_Nonresponsive
+loop row APOB_Responsive
+loop row APOB_Nonresponsive
+loop col HLD_Responsive
+loop col HLD_Nonresponsive
+loop col LDL_Responsive
+loop col LDL_Nonresponsive
+loop col APOB_Responsive
+loop col APOB_Nonresponsive
+link cell_0000 HLD_Responsive 54 86 color=colorhld_responsive_a1,z=41
+link cell_0000 LDL_Responsive 31 63 color=colorhld_responsive_a1,z=41
+colribboncap LDL_Responsive 31 63 fill_color=colorhld_responsive
+rowribboncap HLD_Responsive 54 86 fill_color=colorldl_responsive
+link cell_0001 HLD_Responsive 40 54 color=colorhld_responsive_a1,z=18
+link cell_0001 LDL_Nonresponsive 156 170 color=colorhld_responsive_a1,z=18
+colribboncap LDL_Nonresponsive 156 170 fill_color=colorhld_responsive
+rowribboncap HLD_Responsive 40 54 fill_color=colorldl_nonresponsive
+link cell_0002 HLD_Responsive 12 40 color=colorhld_responsive_a1,z=36
+link cell_0002 APOB_Responsive 32 60 color=colorhld_responsive_a1,z=36
+colribboncap APOB_Responsive 32 60 fill_color=colorhld_responsive
+rowribboncap HLD_Responsive 12 40 fill_color=colorapob_responsive
+link cell_0003 HLD_Responsive 0 12 color=colorhld_responsive_a1,z=15
+link cell_0003 APOB_Nonresponsive 144 156 color=colorhld_responsive_a1,z=15
+colribboncap APOB_Nonresponsive 144 156 fill_color=colorhld_responsive
+rowribboncap HLD_Responsive 0 12 fill_color=colorapob_nonresponsive
+link cell_0004 HLD_Nonresponsive 146 147 color=colorhld_nonresponsive_a1,z=1
+link cell_0004 LDL_Responsive 30 31 color=colorhld_nonresponsive_a1,z=1
+colribboncap LDL_Responsive 30 31 fill_color=colorhld_nonresponsive
+rowribboncap HLD_Nonresponsive 146 147 fill_color=colorldl_responsive
+link cell_0005 HLD_Nonresponsive 68 146 color=colorhld_nonresponsive_a1,z=100
+link cell_0005 LDL_Nonresponsive 78 156 color=colorhld_nonresponsive_a1,z=100
+colribboncap LDL_Nonresponsive 78 156 fill_color=colorhld_nonresponsive
+rowribboncap HLD_Nonresponsive 68 146 fill_color=colorldl_nonresponsive
+link cell_0006 HLD_Nonresponsive 66 68 color=colorhld_nonresponsive_a1,z=3
+link cell_0006 APOB_Responsive 30 32 color=colorhld_nonresponsive_a1,z=3
+colribboncap APOB_Responsive 30 32 fill_color=colorhld_nonresponsive
+rowribboncap HLD_Nonresponsive 66 68 fill_color=colorapob_responsive
+link cell_0007 HLD_Nonresponsive 0 66 color=colorhld_nonresponsive_a1,z=85
+link cell_0007 APOB_Nonresponsive 78 144 color=colorhld_nonresponsive_a1,z=85
+colribboncap APOB_Nonresponsive 78 144 fill_color=colorhld_nonresponsive
+rowribboncap HLD_Nonresponsive 0 66 fill_color=colorapob_nonresponsive
+link cell_0008 LDL_Responsive 5 30 color=colorldl_responsive_a1,z=32
+link cell_0008 APOB_Responsive 5 30 color=colorldl_responsive_a1,z=32
+colribboncap APOB_Responsive 5 30 fill_color=colorldl_responsive
+rowribboncap LDL_Responsive 5 30 fill_color=colorapob_responsive
+link cell_0009 LDL_Responsive 0 5 color=colorldl_responsive_a1,z=6
+link cell_0009 APOB_Nonresponsive 73 78 color=colorldl_responsive_a1,z=6
+colribboncap APOB_Nonresponsive 73 78 fill_color=colorldl_responsive
+rowribboncap LDL_Responsive 0 5 fill_color=colorapob_nonresponsive
+link cell_0010 LDL_Nonresponsive 73 78 color=colorldl_nonresponsive_a1,z=6
+link cell_0010 APOB_Responsive 0 5 color=colorldl_nonresponsive_a1,z=6
+colribboncap APOB_Responsive 0 5 fill_color=colorldl_nonresponsive
+rowribboncap LDL_Nonresponsive 73 78 fill_color=colorapob_responsive
+link cell_0011 LDL_Nonresponsive 0 73 color=colorldl_nonresponsive_a1,z=94
+link cell_0011 APOB_Nonresponsive 0 73 color=colorldl_nonresponsive_a1,z=94
+colribboncap APOB_Nonresponsive 0 73 fill_color=colorldl_nonresponsive
+rowribboncap LDL_Nonresponsive 0 73 fill_color=colorapob_nonresponsive

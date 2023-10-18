@@ -1,0 +1,407 @@
+scale atten_large 34 34
+scale atten_large 16 16
+scale atten_large 31 31
+scale atten_large 2 2
+scale atten_large 7 7
+scale atten_large 10 10
+scale atten_large 35 35
+scale atten_large 18 18
+scale atten_large 7 7
+scale atten_large 0 0
+scale atten_large 1 1
+scale atten_large 3 3
+scale atten_large 51 51
+scale atten_large 21 21
+scale atten_large 24 24
+scale atten_large 5 5
+scale atten_large 22 22
+scale atten_large 21 21
+scale atten_large 41 41
+scale atten_large 33 33
+scale atten_large 28 28
+scale atten_large 6 6
+scale atten_large 1 1
+scale atten_large 5 5
+hsvpercentile 0 0 1 1
+colorpercentile percentile00000 = 255,0,0
+hsvpercentile 5 15 1 1
+colorpercentile percentile00005 = 255,64,0
+hsvpercentile 10 30 1 1
+colorpercentile percentile00010 = 255,128,0
+hsvpercentile 15 45 1 1
+colorpercentile percentile00015 = 255,191,0
+hsvpercentile 20 60 1 1
+colorpercentile percentile00020 = 255,255,0
+hsvpercentile 25 75 1 1
+colorpercentile percentile00025 = 191,255,0
+hsvpercentile 30 90 1 1
+colorpercentile percentile00030 = 128,255,0
+hsvpercentile 35 105 1 1
+colorpercentile percentile00035 = 64,255,0
+hsvpercentile 40 120 1 1
+colorpercentile percentile00040 = 0,255,0
+hsvpercentile 45 135 1 1
+colorpercentile percentile00045 = 0,255,64
+hsvpercentile 50 150 1 1
+colorpercentile percentile00050 = 0,255,128
+hsvpercentile 55 165 1 1
+colorpercentile percentile00055 = 0,255,191
+hsvpercentile 60 180 1 1
+colorpercentile percentile00060 = 0,255,255
+hsvpercentile 65 195 1 1
+colorpercentile percentile00065 = 0,191,255
+hsvpercentile 70 210 1 1
+colorpercentile percentile00070 = 0,128,255
+hsvpercentile 75 225 1 1
+colorpercentile percentile00075 = 0,64,255
+hsvpercentile 80 240 1 1
+colorpercentile percentile00080 = 0,0,255
+hsvpercentile 85 255 1 1
+colorpercentile percentile00085 = 64,0,255
+hsvpercentile 90 270 1 1
+colorpercentile percentile00090 = 128,0,255
+hsvpercentile 95 285 1 1
+colorpercentile percentile00095 = 191,0,255
+hsvpercentile 100 300 1 1
+colorpercentile percentile00100 = 255,0,255
+table report row 0 Male 1
+table report row 1 Female 2
+table report col 0 SAH 
+table report col 1 DM 
+table report col 2 MI 
+table report col 3 CVA 
+table report col 4 Obesity 
+table report col 5 MS 
+table report col 6 CAD 
+table report col 7 Angina 
+table report col 8 PAD 
+table report col 9 TIA 
+table report col 10 AA 
+table report col 11 CS 
+table report cell 0 Male 0 SAH raw 34 cleaned/remapped 34* scaled 34 missing? 0 hidden? 0
+table report cell 0 Male 1 DM raw 16 cleaned/remapped 16* scaled 16 missing? 0 hidden? 0
+table report cell 0 Male 2 MI raw 31 cleaned/remapped 31* scaled 31 missing? 0 hidden? 0
+table report cell 0 Male 3 CVA raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 0 Male 4 Obesity raw 7 cleaned/remapped 7* scaled 7 missing? 0 hidden? 0
+table report cell 0 Male 5 MS raw 10 cleaned/remapped 10* scaled 10 missing? 0 hidden? 0
+table report cell 0 Male 6 CAD raw 35 cleaned/remapped 35* scaled 35 missing? 0 hidden? 0
+table report cell 0 Male 7 Angina raw 18 cleaned/remapped 18* scaled 18 missing? 0 hidden? 0
+table report cell 0 Male 8 PAD raw 7 cleaned/remapped 7* scaled 7 missing? 0 hidden? 0
+table report cell 0 Male 9 TIA raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 0 Male 10 AA raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 0 Male 11 CS raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 1 Female 0 SAH raw 51 cleaned/remapped 51* scaled 51 missing? 0 hidden? 0
+table report cell 1 Female 1 DM raw 21 cleaned/remapped 21* scaled 21 missing? 0 hidden? 0
+table report cell 1 Female 2 MI raw 24 cleaned/remapped 24* scaled 24 missing? 0 hidden? 0
+table report cell 1 Female 3 CVA raw 5 cleaned/remapped 5* scaled 5 missing? 0 hidden? 0
+table report cell 1 Female 4 Obesity raw 22 cleaned/remapped 22* scaled 22 missing? 0 hidden? 0
+table report cell 1 Female 5 MS raw 21 cleaned/remapped 21* scaled 21 missing? 0 hidden? 0
+table report cell 1 Female 6 CAD raw 41 cleaned/remapped 41* scaled 41 missing? 0 hidden? 0
+table report cell 1 Female 7 Angina raw 33 cleaned/remapped 33* scaled 33 missing? 0 hidden? 0
+table report cell 1 Female 8 PAD raw 28 cleaned/remapped 28* scaled 28 missing? 0 hidden? 0
+table report cell 1 Female 9 TIA raw 6 cleaned/remapped 6* scaled 6 missing? 0 hidden? 0
+table report cell 1 Female 10 AA raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 1 Female 11 CS raw 5 cleaned/remapped 5* scaled 5 missing? 0 hidden? 0
+row/col/label stat row Female sum 258 n 12 min 1 max 51 avg 21.5
+row/col/label stat row Male sum 164 n 12 min 0 max 35 avg 13.6666666666667
+row/col/label stat col AA sum 2 n 2 min 1 max 1 avg 1
+row/col/label stat col Angina sum 51 n 2 min 18 max 33 avg 25.5
+row/col/label stat col CAD sum 76 n 2 min 35 max 41 avg 38
+row/col/label stat col CS sum 8 n 2 min 3 max 5 avg 4
+row/col/label stat col CVA sum 7 n 2 min 2 max 5 avg 3.5
+row/col/label stat col DM sum 37 n 2 min 16 max 21 avg 18.5
+row/col/label stat col MI sum 55 n 2 min 24 max 31 avg 27.5
+row/col/label stat col MS sum 31 n 2 min 10 max 21 avg 15.5
+row/col/label stat col Obesity sum 29 n 2 min 7 max 22 avg 14.5
+row/col/label stat col PAD sum 35 n 2 min 7 max 28 avg 17.5
+row/col/label stat col SAH sum 85 n 2 min 34 max 51 avg 42.5
+row/col/label stat col TIA sum 6 n 2 min 0 max 6 avg 3
+row/col/label stat label AA sum 2 n 2 min 1 max 1 avg 1
+row/col/label stat label Angina sum 51 n 2 min 18 max 33 avg 25.5
+row/col/label stat label CAD sum 76 n 2 min 35 max 41 avg 38
+row/col/label stat label CS sum 8 n 2 min 3 max 5 avg 4
+row/col/label stat label CVA sum 7 n 2 min 2 max 5 avg 3.5
+row/col/label stat label DM sum 37 n 2 min 16 max 21 avg 18.5
+row/col/label stat label Female sum 258 n 12 min 1 max 51 avg 21.5
+row/col/label stat label MI sum 55 n 2 min 24 max 31 avg 27.5
+row/col/label stat label MS sum 31 n 2 min 10 max 21 avg 15.5
+row/col/label stat label Male sum 164 n 12 min 0 max 35 avg 13.6666666666667
+row/col/label stat label Obesity sum 29 n 2 min 7 max 22 avg 14.5
+row/col/label stat label PAD sum 35 n 2 min 7 max 28 avg 17.5
+row/col/label stat label SAH sum 85 n 2 min 34 max 51 avg 42.5
+row/col/label stat label TIA sum 6 n 2 min 0 max 6 avg 3
+labels ordered Male Female TIA SAH PAD Obesity MS MI DM CVA CS CAD Angina AA
+label2seg 0 Male Male
+label2seg 1 Female Female
+label2seg 2 TIA TIA
+label2seg 3 SAH SAH
+label2seg 4 PAD PAD
+label2seg 5 Obesity Obesity
+label2seg 6 MS MS
+label2seg 7 MI MI
+label2seg 8 DM DM
+label2seg 9 CVA CVA
+label2seg 10 CS CS
+label2seg 11 CAD CAD
+label2seg 12 Angina Angina
+label2seg 13 AA AA
+labels ordered AA Angina CAD CS CVA DM MI MS Obesity PAD SAH TIA
+colordef colortia = 230,46,230
+colordef colorcad = 230,211,46
+colordef colorms = 46,199,230
+colordef colormi = 46,230,177
+colordef colorcva = 80,230,46
+colordef colorcs = 165,230,46
+colordef colorfemale = 221,234,106
+colordef coloraa = 230,46,46
+colordef colorangina = 230,129,46
+colordef colorpad = 61,46,230
+colordef colorobesity = 46,113,230
+colordef colordm = 46,230,95
+colordef colormale = 142,84,228
+colordef colorsah = 144,46,230
+highlight row Female 0 51 fill_color=colorsah
+highlight row Female 51 92 fill_color=colorcad
+highlight row Female 92 125 fill_color=colorangina
+highlight row Female 125 153 fill_color=colorpad
+highlight row Female 153 177 fill_color=colormi
+highlight row Female 177 199 fill_color=colorobesity
+highlight row Female 199 220 fill_color=colorms
+highlight row Female 220 241 fill_color=colordm
+highlight row Female 241 247 fill_color=colortia
+highlight row Female 247 252 fill_color=colorcva
+highlight row Female 252 257 fill_color=colorcs
+highlight row Female 257 258 fill_color=coloraa
+highlight row Male 0 35 fill_color=colorcad
+highlight row Male 35 69 fill_color=colorsah
+highlight row Male 69 100 fill_color=colormi
+highlight row Male 100 118 fill_color=colorangina
+highlight row Male 118 134 fill_color=colordm
+highlight row Male 134 144 fill_color=colorms
+highlight row Male 144 151 fill_color=colorpad
+highlight row Male 151 158 fill_color=colorobesity
+highlight row Male 158 161 fill_color=colorcs
+highlight row Male 161 163 fill_color=colorcva
+highlight row Male 163 164 fill_color=coloraa
+highlight row Male 164 164 fill_color=colortia
+highlight col TIA 0 6 fill_color=colorfemale
+highlight col TIA 6 6 fill_color=colormale
+highlight col CAD 0 41 fill_color=colorfemale
+highlight col CAD 41 76 fill_color=colormale
+highlight col MS 0 21 fill_color=colorfemale
+highlight col MS 21 31 fill_color=colormale
+highlight col MI 0 31 fill_color=colormale
+highlight col MI 31 55 fill_color=colorfemale
+highlight col CVA 0 5 fill_color=colorfemale
+highlight col CVA 5 7 fill_color=colormale
+highlight col CS 0 5 fill_color=colorfemale
+highlight col CS 5 8 fill_color=colormale
+highlight col AA 0 1 fill_color=colorfemale
+highlight col AA 1 2 fill_color=colormale
+highlight col Angina 0 33 fill_color=colorfemale
+highlight col Angina 33 51 fill_color=colormale
+highlight col PAD 0 28 fill_color=colorfemale
+highlight col PAD 28 35 fill_color=colormale
+highlight col Obesity 0 22 fill_color=colorfemale
+highlight col Obesity 22 29 fill_color=colormale
+highlight col DM 0 21 fill_color=colorfemale
+highlight col DM 21 37 fill_color=colormale
+highlight col SAH 0 51 fill_color=colorfemale
+highlight col SAH 51 85 fill_color=colormale
+highlight all Male 0 35 fill_color=colorcad
+highlight all Male 35 69 fill_color=colorsah
+highlight all Male 69 100 fill_color=colormi
+highlight all Male 100 118 fill_color=colorangina
+highlight all Male 118 134 fill_color=colordm
+highlight all Male 134 144 fill_color=colorms
+highlight all Male 144 151 fill_color=colorpad
+highlight all Male 151 158 fill_color=colorobesity
+highlight all Male 158 161 fill_color=colorcs
+highlight all Male 161 163 fill_color=colorcva
+highlight all Male 163 164 fill_color=coloraa
+highlight all Male 164 164 fill_color=colortia
+highlight all Female 0 51 fill_color=colorsah
+highlight all Female 51 92 fill_color=colorcad
+highlight all Female 92 125 fill_color=colorangina
+highlight all Female 125 153 fill_color=colorpad
+highlight all Female 153 177 fill_color=colormi
+highlight all Female 177 199 fill_color=colorobesity
+highlight all Female 199 220 fill_color=colorms
+highlight all Female 220 241 fill_color=colordm
+highlight all Female 241 247 fill_color=colortia
+highlight all Female 247 252 fill_color=colorcva
+highlight all Female 252 257 fill_color=colorcs
+highlight all Female 257 258 fill_color=coloraa
+highlight all TIA 0 6 fill_color=colorfemale
+highlight all TIA 6 6 fill_color=colormale
+highlight all SAH 0 51 fill_color=colorfemale
+highlight all SAH 51 85 fill_color=colormale
+highlight all PAD 0 28 fill_color=colorfemale
+highlight all PAD 28 35 fill_color=colormale
+highlight all Obesity 0 22 fill_color=colorfemale
+highlight all Obesity 22 29 fill_color=colormale
+highlight all MS 0 21 fill_color=colorfemale
+highlight all MS 21 31 fill_color=colormale
+highlight all MI 0 31 fill_color=colormale
+highlight all MI 31 55 fill_color=colorfemale
+highlight all DM 0 21 fill_color=colorfemale
+highlight all DM 21 37 fill_color=colormale
+highlight all CVA 0 5 fill_color=colorfemale
+highlight all CVA 5 7 fill_color=colormale
+highlight all CS 0 5 fill_color=colorfemale
+highlight all CS 5 8 fill_color=colormale
+highlight all CAD 0 41 fill_color=colorfemale
+highlight all CAD 41 76 fill_color=colormale
+highlight all Angina 0 33 fill_color=colorfemale
+highlight all Angina 33 51 fill_color=colormale
+highlight all AA 0 1 fill_color=colorfemale
+highlight all AA 1 2 fill_color=colormale
+karyotype chr - Male Male 0 164 colormale
+segmentlabel Male 0 164 Male
+karyotype chr - Female Female 0 258 colorfemale
+segmentlabel Female 0 258 Female
+karyotype chr - TIA TIA 0 6 colortia
+segmentlabel TIA 0 6 TIA
+karyotype chr - SAH SAH 0 85 colorsah
+segmentlabel SAH 0 85 SAH
+karyotype chr - PAD PAD 0 35 colorpad
+segmentlabel PAD 0 35 PAD
+karyotype chr - Obesity Obesity 0 29 colorobesity
+segmentlabel Obesity 0 29 Obesity
+karyotype chr - MS MS 0 31 colorms
+segmentlabel MS 0 31 MS
+karyotype chr - MI MI 0 55 colormi
+segmentlabel MI 0 55 MI
+karyotype chr - DM DM 0 37 colordm
+segmentlabel DM 0 37 DM
+karyotype chr - CVA CVA 0 7 colorcva
+segmentlabel CVA 0 7 CVA
+karyotype chr - CS CS 0 8 colorcs
+segmentlabel CS 0 8 CS
+karyotype chr - CAD CAD 0 76 colorcad
+segmentlabel CAD 0 76 CAD
+karyotype chr - Angina Angina 0 51 colorangina
+segmentlabel Angina 0 51 Angina
+karyotype chr - AA AA 0 2 coloraa
+segmentlabel AA 0 2 AA
+chromosomes_scale = Male:1.0000,Female:1.0000,TIA:1.0000,SAH:1.0000,PAD:1.0000,Obesity:1.0000,MS:1.0000,MI:1.0000,DM:1.0000,CVA:1.0000,CS:1.0000,CAD:1.0000,Angina:1.0000,AA:1.0000
+loop Male row
+loop Male col
+loop Female row
+loop Female col
+loop TIA row
+loop TIA col
+loop SAH row
+loop SAH col
+loop PAD row
+loop PAD col
+loop Obesity row
+loop Obesity col
+loop MS row
+loop MS col
+loop MI row
+loop MI col
+loop DM row
+loop DM col
+loop CVA row
+loop CVA col
+loop CS row
+loop CS col
+loop CAD row
+loop CAD col
+loop Angina row
+loop Angina col
+loop AA row
+loop AA col
+link cell_0000 Male 130 164 color=colormale_a1,z=67
+link cell_0000 SAH 51 85 color=colormale_a1,z=67
+colribboncap SAH 51 85 fill_color=colormale
+rowribboncap Male 130 164 fill_color=colorsah
+link cell_0001 Male 59 75 color=colormale_a1,z=31
+link cell_0001 DM 21 37 color=colormale_a1,z=31
+colribboncap DM 21 37 fill_color=colormale
+rowribboncap Male 59 75 fill_color=colordm
+link cell_0002 Male 75 106 color=colormale_a1,z=61
+link cell_0002 MI 24 55 color=colormale_a1,z=61
+colribboncap MI 24 55 fill_color=colormale
+rowribboncap Male 75 106 fill_color=colormi
+link cell_0003 Male 57 59 color=colormale_a1,z=4
+link cell_0003 CVA 5 7 color=colormale_a1,z=4
+colribboncap CVA 5 7 fill_color=colormale
+rowribboncap Male 57 59 fill_color=colorcva
+link cell_0004 Male 116 123 color=colormale_a1,z=14
+link cell_0004 Obesity 22 29 color=colormale_a1,z=14
+colribboncap Obesity 22 29 fill_color=colormale
+rowribboncap Male 116 123 fill_color=colorobesity
+link cell_0005 Male 106 116 color=colormale_a1,z=20
+link cell_0005 MS 21 31 color=colormale_a1,z=20
+colribboncap MS 21 31 fill_color=colormale
+rowribboncap Male 106 116 fill_color=colorms
+link cell_0006 Male 19 54 color=colormale_a1,z=69
+link cell_0006 CAD 41 76 color=colormale_a1,z=69
+colribboncap CAD 41 76 fill_color=colormale
+rowribboncap Male 19 54 fill_color=colorcad
+link cell_0007 Male 1 19 color=colormale_a1,z=35
+link cell_0007 Angina 33 51 color=colormale_a1,z=35
+colribboncap Angina 33 51 fill_color=colormale
+rowribboncap Male 1 19 fill_color=colorangina
+link cell_0008 Male 123 130 color=colormale_a1,z=14
+link cell_0008 PAD 28 35 color=colormale_a1,z=14
+colribboncap PAD 28 35 fill_color=colormale
+rowribboncap Male 123 130 fill_color=colorpad
+link cell_0009 Male 0 1 color=colormale_a1,z=2
+link cell_0009 AA 1 2 color=colormale_a1,z=2
+colribboncap AA 1 2 fill_color=colormale
+rowribboncap Male 0 1 fill_color=coloraa
+link cell_0010 Male 54 57 color=colormale_a1,z=6
+link cell_0010 CS 5 8 color=colormale_a1,z=6
+colribboncap CS 5 8 fill_color=colormale
+rowribboncap Male 54 57 fill_color=colorcs
+link cell_0011 Female 201 252 color=colorfemale_a1,z=100
+link cell_0011 SAH 0 51 color=colorfemale_a1,z=100
+colribboncap SAH 0 51 fill_color=colorfemale
+rowribboncap Female 201 252 fill_color=colorsah
+link cell_0012 Female 85 106 color=colorfemale_a1,z=41
+link cell_0012 DM 0 21 color=colorfemale_a1,z=41
+colribboncap DM 0 21 fill_color=colorfemale
+rowribboncap Female 85 106 fill_color=colordm
+link cell_0013 Female 106 130 color=colorfemale_a1,z=47
+link cell_0013 MI 0 24 color=colorfemale_a1,z=47
+colribboncap MI 0 24 fill_color=colorfemale
+rowribboncap Female 106 130 fill_color=colormi
+link cell_0014 Female 80 85 color=colorfemale_a1,z=10
+link cell_0014 CVA 0 5 color=colorfemale_a1,z=10
+colribboncap CVA 0 5 fill_color=colorfemale
+rowribboncap Female 80 85 fill_color=colorcva
+link cell_0015 Female 151 173 color=colorfemale_a1,z=43
+link cell_0015 Obesity 0 22 color=colorfemale_a1,z=43
+colribboncap Obesity 0 22 fill_color=colorfemale
+rowribboncap Female 151 173 fill_color=colorobesity
+link cell_0016 Female 130 151 color=colorfemale_a1,z=41
+link cell_0016 MS 0 21 color=colorfemale_a1,z=41
+colribboncap MS 0 21 fill_color=colorfemale
+rowribboncap Female 130 151 fill_color=colorms
+link cell_0017 Female 34 75 color=colorfemale_a1,z=80
+link cell_0017 CAD 0 41 color=colorfemale_a1,z=80
+colribboncap CAD 0 41 fill_color=colorfemale
+rowribboncap Female 34 75 fill_color=colorcad
+link cell_0018 Female 1 34 color=colorfemale_a1,z=65
+link cell_0018 Angina 0 33 color=colorfemale_a1,z=65
+colribboncap Angina 0 33 fill_color=colorfemale
+rowribboncap Female 1 34 fill_color=colorangina
+link cell_0019 Female 173 201 color=colorfemale_a1,z=55
+link cell_0019 PAD 0 28 color=colorfemale_a1,z=55
+colribboncap PAD 0 28 fill_color=colorfemale
+rowribboncap Female 173 201 fill_color=colorpad
+link cell_0020 Female 252 258 color=colorfemale_a1,z=12
+link cell_0020 TIA 0 6 color=colorfemale_a1,z=12
+colribboncap TIA 0 6 fill_color=colorfemale
+rowribboncap Female 252 258 fill_color=colortia
+link cell_0021 Female 0 1 color=colorfemale_a1,z=2
+link cell_0021 AA 0 1 color=colorfemale_a1,z=2
+colribboncap AA 0 1 fill_color=colorfemale
+rowribboncap Female 0 1 fill_color=coloraa
+link cell_0022 Female 75 80 color=colorfemale_a1,z=10
+link cell_0022 CS 0 5 color=colorfemale_a1,z=10
+colribboncap CS 0 5 fill_color=colorfemale
+rowribboncap Female 75 80 fill_color=colorcs

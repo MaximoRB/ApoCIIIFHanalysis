@@ -1,0 +1,266 @@
+scale atten_large 21 21
+scale atten_large 27 27
+scale atten_large 16 16
+scale atten_large 16 16
+scale atten_large 44 44
+scale atten_large 9 9
+scale atten_large 15 15
+scale atten_large 28 28
+scale atten_large 43 43
+scale atten_large 29 29
+scale atten_large 28 28
+scale atten_large 63 63
+scale atten_large 17 17
+scale atten_large 14 14
+hsvpercentile 0 0 1 1
+colorpercentile percentile00000 = 255,0,0
+hsvpercentile 5 15 1 1
+colorpercentile percentile00005 = 255,64,0
+hsvpercentile 10 30 1 1
+colorpercentile percentile00010 = 255,128,0
+hsvpercentile 15 45 1 1
+colorpercentile percentile00015 = 255,191,0
+hsvpercentile 20 60 1 1
+colorpercentile percentile00020 = 255,255,0
+hsvpercentile 25 75 1 1
+colorpercentile percentile00025 = 191,255,0
+hsvpercentile 30 90 1 1
+colorpercentile percentile00030 = 128,255,0
+hsvpercentile 35 105 1 1
+colorpercentile percentile00035 = 64,255,0
+hsvpercentile 40 120 1 1
+colorpercentile percentile00040 = 0,255,0
+hsvpercentile 45 135 1 1
+colorpercentile percentile00045 = 0,255,64
+hsvpercentile 50 150 1 1
+colorpercentile percentile00050 = 0,255,128
+hsvpercentile 55 165 1 1
+colorpercentile percentile00055 = 0,255,191
+hsvpercentile 60 180 1 1
+colorpercentile percentile00060 = 0,255,255
+hsvpercentile 65 195 1 1
+colorpercentile percentile00065 = 0,191,255
+hsvpercentile 70 210 1 1
+colorpercentile percentile00070 = 0,128,255
+hsvpercentile 75 225 1 1
+colorpercentile percentile00075 = 0,64,255
+hsvpercentile 80 240 1 1
+colorpercentile percentile00080 = 0,0,255
+hsvpercentile 85 255 1 1
+colorpercentile percentile00085 = 64,0,255
+hsvpercentile 90 270 1 1
+colorpercentile percentile00090 = 128,0,255
+hsvpercentile 95 285 1 1
+colorpercentile percentile00095 = 191,0,255
+hsvpercentile 100 300 1 1
+colorpercentile percentile00100 = 255,0,255
+table report row 0 Male 1
+table report row 1 Female 2
+table report col 0 a 
+table report col 1 b 
+table report col 2 c 
+table report col 3 d 
+table report col 4 e 
+table report col 5 f 
+table report col 6 g 
+table report cell 0 Male 0 a raw 21 cleaned/remapped 21* scaled 21 missing? 0 hidden? 0
+table report cell 0 Male 1 b raw 27 cleaned/remapped 27* scaled 27 missing? 0 hidden? 0
+table report cell 0 Male 2 c raw 16 cleaned/remapped 16* scaled 16 missing? 0 hidden? 0
+table report cell 0 Male 3 d raw 16 cleaned/remapped 16* scaled 16 missing? 0 hidden? 0
+table report cell 0 Male 4 e raw 44 cleaned/remapped 44* scaled 44 missing? 0 hidden? 0
+table report cell 0 Male 5 f raw 9 cleaned/remapped 9* scaled 9 missing? 0 hidden? 0
+table report cell 0 Male 6 g raw 15 cleaned/remapped 15* scaled 15 missing? 0 hidden? 0
+table report cell 1 Female 0 a raw 28 cleaned/remapped 28* scaled 28 missing? 0 hidden? 0
+table report cell 1 Female 1 b raw 43 cleaned/remapped 43* scaled 43 missing? 0 hidden? 0
+table report cell 1 Female 2 c raw 29 cleaned/remapped 29* scaled 29 missing? 0 hidden? 0
+table report cell 1 Female 3 d raw 28 cleaned/remapped 28* scaled 28 missing? 0 hidden? 0
+table report cell 1 Female 4 e raw 63 cleaned/remapped 63* scaled 63 missing? 0 hidden? 0
+table report cell 1 Female 5 f raw 17 cleaned/remapped 17* scaled 17 missing? 0 hidden? 0
+table report cell 1 Female 6 g raw 14 cleaned/remapped 14* scaled 14 missing? 0 hidden? 0
+row/col/label stat row Female sum 222 n 7 min 14 max 63 avg 31.7142857142857
+row/col/label stat row Male sum 148 n 7 min 9 max 44 avg 21.1428571428571
+row/col/label stat col a sum 49 n 2 min 21 max 28 avg 24.5
+row/col/label stat col b sum 70 n 2 min 27 max 43 avg 35
+row/col/label stat col c sum 45 n 2 min 16 max 29 avg 22.5
+row/col/label stat col d sum 44 n 2 min 16 max 28 avg 22
+row/col/label stat col e sum 107 n 2 min 44 max 63 avg 53.5
+row/col/label stat col f sum 26 n 2 min 9 max 17 avg 13
+row/col/label stat col g sum 29 n 2 min 14 max 15 avg 14.5
+row/col/label stat label Female sum 222 n 7 min 14 max 63 avg 31.7142857142857
+row/col/label stat label Male sum 148 n 7 min 9 max 44 avg 21.1428571428571
+row/col/label stat label a sum 49 n 2 min 21 max 28 avg 24.5
+row/col/label stat label b sum 70 n 2 min 27 max 43 avg 35
+row/col/label stat label c sum 45 n 2 min 16 max 29 avg 22.5
+row/col/label stat label d sum 44 n 2 min 16 max 28 avg 22
+row/col/label stat label e sum 107 n 2 min 44 max 63 avg 53.5
+row/col/label stat label f sum 26 n 2 min 9 max 17 avg 13
+row/col/label stat label g sum 29 n 2 min 14 max 15 avg 14.5
+labels ordered Male Female g f e d c b a
+label2seg 0 Male Male
+label2seg 1 Female Female
+label2seg 2 g g
+label2seg 3 f f
+label2seg 4 e e
+label2seg 5 d d
+label2seg 6 c c
+label2seg 7 b b
+label2seg 8 a a
+labels ordered a b c d e f g
+colordef colore = 46,168,230
+colordef colora = 230,46,46
+colordef colord = 46,230,138
+colordef colorfemale = 221,234,106
+colordef colorc = 107,230,46
+colordef colorb = 230,199,46
+colordef colorg = 230,46,230
+colordef colormale = 142,84,228
+colordef colorf = 77,46,230
+highlight row Female 0 63 fill_color=colore
+highlight row Female 63 106 fill_color=colorb
+highlight row Female 106 135 fill_color=colorc
+highlight row Female 135 163 fill_color=colora
+highlight row Female 163 191 fill_color=colord
+highlight row Female 191 208 fill_color=colorf
+highlight row Female 208 222 fill_color=colorg
+highlight row Male 0 44 fill_color=colore
+highlight row Male 44 71 fill_color=colorb
+highlight row Male 71 92 fill_color=colora
+highlight row Male 92 108 fill_color=colorc
+highlight row Male 108 124 fill_color=colord
+highlight row Male 124 139 fill_color=colorg
+highlight row Male 139 148 fill_color=colorf
+highlight col e 0 63 fill_color=colorfemale
+highlight col e 63 107 fill_color=colormale
+highlight col c 0 29 fill_color=colorfemale
+highlight col c 29 45 fill_color=colormale
+highlight col a 0 28 fill_color=colorfemale
+highlight col a 28 49 fill_color=colormale
+highlight col b 0 43 fill_color=colorfemale
+highlight col b 43 70 fill_color=colormale
+highlight col g 0 15 fill_color=colormale
+highlight col g 15 29 fill_color=colorfemale
+highlight col d 0 28 fill_color=colorfemale
+highlight col d 28 44 fill_color=colormale
+highlight col f 0 17 fill_color=colorfemale
+highlight col f 17 26 fill_color=colormale
+highlight all Male 0 44 fill_color=colore
+highlight all Male 44 71 fill_color=colorb
+highlight all Male 71 92 fill_color=colora
+highlight all Male 92 108 fill_color=colorc
+highlight all Male 108 124 fill_color=colord
+highlight all Male 124 139 fill_color=colorg
+highlight all Male 139 148 fill_color=colorf
+highlight all Female 0 63 fill_color=colore
+highlight all Female 63 106 fill_color=colorb
+highlight all Female 106 135 fill_color=colorc
+highlight all Female 135 163 fill_color=colora
+highlight all Female 163 191 fill_color=colord
+highlight all Female 191 208 fill_color=colorf
+highlight all Female 208 222 fill_color=colorg
+highlight all g 0 15 fill_color=colormale
+highlight all g 15 29 fill_color=colorfemale
+highlight all f 0 17 fill_color=colorfemale
+highlight all f 17 26 fill_color=colormale
+highlight all e 0 63 fill_color=colorfemale
+highlight all e 63 107 fill_color=colormale
+highlight all d 0 28 fill_color=colorfemale
+highlight all d 28 44 fill_color=colormale
+highlight all c 0 29 fill_color=colorfemale
+highlight all c 29 45 fill_color=colormale
+highlight all b 0 43 fill_color=colorfemale
+highlight all b 43 70 fill_color=colormale
+highlight all a 0 28 fill_color=colorfemale
+highlight all a 28 49 fill_color=colormale
+karyotype chr - Male Male 0 148 colormale
+segmentlabel Male 0 148 Male
+karyotype chr - Female Female 0 222 colorfemale
+segmentlabel Female 0 222 Female
+karyotype chr - g g 0 29 colorg
+segmentlabel g 0 29 g
+karyotype chr - f f 0 26 colorf
+segmentlabel f 0 26 f
+karyotype chr - e e 0 107 colore
+segmentlabel e 0 107 e
+karyotype chr - d d 0 44 colord
+segmentlabel d 0 44 d
+karyotype chr - c c 0 45 colorc
+segmentlabel c 0 45 c
+karyotype chr - b b 0 70 colorb
+segmentlabel b 0 70 b
+karyotype chr - a a 0 49 colora
+segmentlabel a 0 49 a
+chromosomes_scale = Male:1.0000,Female:1.0000,g:1.0000,f:1.0000,e:1.0000,d:1.0000,c:1.0000,b:1.0000,a:1.0000
+loop Male row
+loop Male col
+loop Female row
+loop Female col
+loop g row
+loop g col
+loop f row
+loop f col
+loop e row
+loop e col
+loop d row
+loop d col
+loop c row
+loop c col
+loop b row
+loop b col
+loop a row
+loop a col
+link cell_0000 Male 0 21 color=colormale_a1,z=22
+link cell_0000 a 28 49 color=colormale_a1,z=22
+colribboncap a 28 49 fill_color=colormale
+rowribboncap Male 0 21 fill_color=colora
+link cell_0001 Male 21 48 color=colormale_a1,z=33
+link cell_0001 b 43 70 color=colormale_a1,z=33
+colribboncap b 43 70 fill_color=colormale
+rowribboncap Male 21 48 fill_color=colorb
+link cell_0002 Male 48 64 color=colormale_a1,z=13
+link cell_0002 c 29 45 color=colormale_a1,z=13
+colribboncap c 29 45 fill_color=colormale
+rowribboncap Male 48 64 fill_color=colorc
+link cell_0003 Male 64 80 color=colormale_a1,z=13
+link cell_0003 d 28 44 color=colormale_a1,z=13
+colribboncap d 28 44 fill_color=colormale
+rowribboncap Male 64 80 fill_color=colord
+link cell_0004 Male 80 124 color=colormale_a1,z=65
+link cell_0004 e 63 107 color=colormale_a1,z=65
+colribboncap e 63 107 fill_color=colormale
+rowribboncap Male 80 124 fill_color=colore
+link cell_0005 Male 124 133 color=colormale_a1,z=0
+link cell_0005 f 17 26 color=colormale_a1,z=0
+colribboncap f 17 26 fill_color=colormale
+rowribboncap Male 124 133 fill_color=colorf
+link cell_0006 Male 133 148 color=colormale_a1,z=11
+link cell_0006 g 14 29 color=colormale_a1,z=11
+colribboncap g 14 29 fill_color=colormale
+rowribboncap Male 133 148 fill_color=colorg
+link cell_0007 Female 0 28 color=colorfemale_a1,z=35
+link cell_0007 a 0 28 color=colorfemale_a1,z=35
+colribboncap a 0 28 fill_color=colorfemale
+rowribboncap Female 0 28 fill_color=colora
+link cell_0008 Female 28 71 color=colorfemale_a1,z=63
+link cell_0008 b 0 43 color=colorfemale_a1,z=63
+colribboncap b 0 43 fill_color=colorfemale
+rowribboncap Female 28 71 fill_color=colorb
+link cell_0009 Female 71 100 color=colorfemale_a1,z=37
+link cell_0009 c 0 29 color=colorfemale_a1,z=37
+colribboncap c 0 29 fill_color=colorfemale
+rowribboncap Female 71 100 fill_color=colorc
+link cell_0010 Female 100 128 color=colorfemale_a1,z=35
+link cell_0010 d 0 28 color=colorfemale_a1,z=35
+colribboncap d 0 28 fill_color=colorfemale
+rowribboncap Female 100 128 fill_color=colord
+link cell_0011 Female 128 191 color=colorfemale_a1,z=100
+link cell_0011 e 0 63 color=colorfemale_a1,z=100
+colribboncap e 0 63 fill_color=colorfemale
+rowribboncap Female 128 191 fill_color=colore
+link cell_0012 Female 191 208 color=colorfemale_a1,z=15
+link cell_0012 f 0 17 color=colorfemale_a1,z=15
+colribboncap f 0 17 fill_color=colorfemale
+rowribboncap Female 191 208 fill_color=colorf
+link cell_0013 Female 208 222 color=colorfemale_a1,z=9
+link cell_0013 g 0 14 color=colorfemale_a1,z=9
+colribboncap g 0 14 fill_color=colorfemale
+rowribboncap Female 208 222 fill_color=colorg
