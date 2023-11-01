@@ -1,0 +1,109 @@
+#1st: Import data from excel or from text (readr): import dataset
+
+
+#2nd: Enable libraries below:
+  library(dplyr)
+  library(ggpubr)
+  library(car)
+  library(multcompView)
+  library(onewaytests)
+  library(WRS2)
+  library(rstatix)
+  library(AID)
+  library(MASS)
+  library(emmeans)
+
+
+#3rd: Check data structure:
+str(Dataset$Variable)
+
+
+#4th: Check dependent variable’s frequency according to independent variable:
+table(Dataset$IndepVariable, Dataset$DependVariable)
+
+
+#5th: Examples plots relating variants: dependent variable will be associated to independent variable 1 and will be colored by independent variant 2 groups”. Number of colors provided must be equal to the quantity of groups from independent variant 2.
+ggboxplot (Dataset, x = “IndepVariable1”, y = “DependVariable”, color = "IndepVariable2”, palette = c(“Color1”, “Color2”))
+#Or:
+
+ggboxplot(Dataset, x = "IndepVariable1", y = "DependVariable", color = "IndepVariable1", palette = "jco", add = "jitter",facet.by = "IndepVariable2", short.panel.labs = FALSE) + stat_compare_means(label = "p.format")
+
+#Or: each group has a line joining independent variant 1:
+ggline(Dataset, x = "IndepVariable1", y = "DependVariable", color = "IndepVariable2", add = c("mean_se", "boxplot"), palette = c("Color1", “Color2"))
+
+#Or: plot both variables:
+boxplot (DependVariable ~ IndepVariable1*IndepVariable2, data = Dataset, frame = FALSE, col = c("Color1", "Color2"), ylab = "Dependent variable name", xlab = "Independent variables names")
+
+
+#6th: to check interactions:
+interaction.plot(x.factor = Dataset$IndepVariable1, trace.factor = Dataset$IndepVariable2, response = Dataset$DependVariable, fun = mean, type = "b", legend = TRUE, xlab = “Independent variable 1 name", ylab = “Dependent variable name”, pch = c(1,19), col = c(“Color1”, “Color2”))
+
+
+#7th: Checking ANOVA assumptions: If there’s only one independent variable:
+#Normality test:
+nor.test(DependVariable ~ IndepVariable1, data = Dataset)
+#Homogeneity of variances test:
+homog.test(DependVariable ~ IndepVariable1, data = Dataset, method = “Levene”)
+#Or:
+homog.test(DependVariable ~ IndepVariable1, data = Dataset, method = “Fligner")
+
+#7th: Checking ANOVA assumptions: If there are two independent variables:
+#Create a linear model:
+Model <- lm(DependVariable ~ IndepVariable1*IndepVariable2, data = Dataset)
+#Check its normality:
+plot (Model, 2)
+shapiro.test(residuals(Model))
+#Homogeneity of variances test:
+plot (Model, 1)
+leveneTest(Model)
+#Test for autocorrelation in the residuals:
+durbinWatsonTest(Model)
+
+
+#8th: ANOVA & post-hoc test:
+#Create a linear model:
+Model <- aov(DependVariable ~ IndepVariable1*IndepVariable2, data = Dataset)
+#Select the best anova type. Type III is used to unbalanced design:
+Anova (Model, type = "III") 
+#Compare means:
+Tukey <- TukeyHSD (Model)
+Tukey.summary <- multcompLetters4 (Model, tukey)
+Print (Tukey.summary)
+
+
+
+#OBS1: If ANOVA type III is required, it may be interesting to use equal contrasts:
+ModelANOVA <- Anova(lm(DependVariable ~IndepVariable1*IndepVariable2,
+contrasts=list(IndepVariable1='contr.sum', IndepVariable2 ='contr.sum'), data = Dataset),
+type='III')
+#Find different averages using Tukey:
+ModelANOVA = lm(DependVariable ~IndepVariable1 + IndepVariable2 + IndepVariable1:IndepVariable2, data = Dataset)
+Posthoc = emmeans(ModelANOVA, specs = pairwise ~ IndepVariable1:IndepVariable2)
+Posthoc$contrasts
+
+
+
+#OBS: ANOVA adequation
+
+#When using an One-Way ANOVA but:
+#Model fails the normality test: 
+kruskal.test(DependVariable ~ IndepVariable, data = Dataset)
+pairwise.wilcox.test(Dataset$DependVariable, Dataset$IndepVariable, p.adjust.method = "BH")
+
+
+#Model fails the homogeneity test: perform WELCH ANOVA:
+oneway.test(DependVariable ~ IndepVariable, Dataset)
+#Or
+welch.test(DependVariable ~ IndepVariable, data = Dataset)
+#Post hoc test:
+games_howell_test(Dataset, DependVariable~ IndepVariable)
+
+
+#When using Two-Way ANOVA but:
+#Model fails the normality test: 
+#Box Cox transformation:
+bc <- boxcox(Dataset$DependVariable ~ Dataset$IndepVariable1)
+Maxlambda <- bc$x[which.max(bc$y)]
+#Repeat normality test.
+TransformedModel <-lm(Dataset$DependVariable^Max lambda value ~ IndepVariable1*IndepVariable2, data= Dataset)
+#Proceed to Two-Way ANOVA
