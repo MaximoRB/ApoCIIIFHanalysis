@@ -1,0 +1,56 @@
+#Raincloud plot tutorial:
+#Download:
+library(cowplot)
+library(tidyverse)
+library(tidyquant)
+library(ggdist)
+library(ggthemes)
+#Visualize your data:
+head(Dataset)
+
+#Raincloud Plot:
+R1 <- ggplot(Dataset,aes(x=Cathegorical_variable,y=Continuous_variable, fill = Cathegorical_variable,
+#if you want to determine the groups order:
+level = c(level1, level2, level3))
+# Show division by second variable: 
++ facet_wrap(~ Cathegorical_variable2) +
+# add half-violin from {ggdist} package
+stat_halfeye(
+    # adjust bandwidth
+    adjust = 0.35,
+    # move to the right
+    justification = -0.1,
+    # remove the slub interval
+    .width = 0,
+    point_colour = NA
+) +
+    geom_boxplot(
+        width = 0.12,
+        # removing outliers
+        outlier.color = NA,
+        alpha = 0.5
+#If you color your outliers, manage their size by:
+, outlier.size = 0.3
+    ) +
+    stat_dots(
+        # ploting on left side
+        side = "left",
+        # adjusting position
+        justification = 1.1,
+        # adjust grouping (binning) of observations
+        binwidth = 4, size = 0.25,
+#If you want to jitter your dots:
+, position = position_jitter(width = 0.5)
+) + theme_cowplot() +
+    labs(
+        title = "RainCloud Plot",
+        x = "Cathegorical_variable",
+        y = “Continuous_variable"
+    ) 
+#If you want to switch x and y axis exhibition:
++
+    coord_flip() 
+#To control the colours you want:
++ scale_fill_manual(values = c("#E19F87", "#99AEFF", "#785C58", "#9F7BC4", "#F3B03D", "#8095C8")
+)
+R1
