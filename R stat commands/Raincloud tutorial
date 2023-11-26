@@ -5,6 +5,15 @@ library(tidyverse)
 library(tidyquant)
 library(ggdist)
 library(ggthemes)
+#Download your data. OBS: Diferent groups of the same variable must be on the same column. ex:
+#Group      Variable1      Variable 2
+#a        Cathegorical       Numeric
+#a        Cathegorical       Numeric
+#b        Cathegorical       Numeric
+#b        Cathegorical       Numeric
+#b        Cathegorical       Numeric
+
+
 #Visualize your data:
 head(Dataset)
 
